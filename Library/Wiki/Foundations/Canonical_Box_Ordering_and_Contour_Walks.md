@@ -47,10 +47,12 @@ For a box $B$, its contour walk $W(B)$ satisfies:
 
 ```idris
 module Foundations.Canonical_Box_Ordering_and_Contour_Walks
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Core
 
 %default total
 
@@ -66,7 +68,7 @@ evidence_contour_walk_roundtrip = Core.Multiset.auditContourWalkRoundtripProof
 
 ||| Evidence 3: Compile-Time Elaborator Reflection Macro (Witness 113)
 public export
-evidence_box_ordering_reflection : Reflect.InvariantAuditor.auditBoxOrderingAndContourWalkProofExport = True
+evidence_box_ordering_reflection : Reflect.Auditor.Core.auditBoxOrderingAndContourWalkProofExport = True
 evidence_box_ordering_reflection = Refl
 ```
 

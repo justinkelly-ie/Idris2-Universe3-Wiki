@@ -51,10 +51,12 @@ The entire cosmic state information can be transmitted across the holographic ho
 
 ```idris
 module Geometry.Dyck_Huffman_Codes_and_Holographic_Transmission
+import Language.Reflection
 
 import Core.BoxInt
 import Math.ShannonHuffmanOptimality
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Math
 
 %default total
 
@@ -65,8 +67,8 @@ evidence_dyck_huffman_holographic = Math.ShannonHuffmanOptimality.auditDyckHuffm
 
 ||| Compile-time Reflection Witness 121 (Elaborator Macro)
 public export
-witness_dyck_huffman_holographic : Reflect.InvariantAuditor.auditDyckHuffmanHolographicProofExport = True
-witness_dyck_huffman_holographic = Refl
+witness_dyck_huffman_holographic : Reflect.Auditor.Math.auditDyckHuffmanHolographicProofExport = True
+witness_dyck_huffman_holographic = auditDyckHuffmanHolographic
 ```
 
 ---

@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law44_Discrete_Hawking_Page_Phase_Transition
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

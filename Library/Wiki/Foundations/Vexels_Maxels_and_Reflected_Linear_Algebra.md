@@ -38,6 +38,7 @@ Using **Elaborator Reflection & Type-Checked Witnesses**, these structures are s
 
 ```idris
 module Foundations.Vexels_Maxels_and_Reflected_Linear_Algebra
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

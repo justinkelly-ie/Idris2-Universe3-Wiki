@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 23**, establishing gauge-invariant topolo
 
 ```idris
 module Geometry.Law23_Discrete_Chern_Simons_Topological_Mass
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

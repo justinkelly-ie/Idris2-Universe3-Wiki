@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law39_Discrete_Monod_Wyman_Changeux_Allostery
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

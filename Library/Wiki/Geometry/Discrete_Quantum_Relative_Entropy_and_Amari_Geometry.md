@@ -4,6 +4,7 @@ This chapter formalizes **Exact Multiset Relative Entropy (Kullback-Leibler / Um
 
 ```idris
 module Geometry.Discrete_Quantum_Relative_Entropy_and_Amari_Geometry
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

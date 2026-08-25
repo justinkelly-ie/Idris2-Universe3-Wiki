@@ -77,6 +77,7 @@ $$Z_{\text{Cosmic}}(q) = \underbrace{Z_{\text{Elliptic}}^{27}(q)}_{\text{Bound S
 
 ```idris
 module Geometry.Discrete_Principle_of_Least_Action
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law32_Discrete_Topological_Insulators_and_Edge_States
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

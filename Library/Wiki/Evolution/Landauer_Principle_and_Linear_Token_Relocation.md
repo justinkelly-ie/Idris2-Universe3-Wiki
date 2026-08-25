@@ -29,17 +29,19 @@ When a basis token $[k]$ is erased from an active quantum state:
 
 ```idris
 module Evolution.Landauer_Principle_and_Linear_Token_Relocation
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
 import Evolution.State
 import Evolution.StructuralAccounting
 import Reflect.InvariantAuditor
-import Language.Reflection
+import Reflect.InvariantAuditor
+import Reflect.Auditor.Evolution
 
 %default total
 
-||| Evidence 1: Proof of Landauer Erasure token conservation (VM 27 -> 26, DM 55 -> 56)
+||| Evidence 1: Proof of Landauer linear token conservation during DM relocation
 public export
 evidence_landauer_token_conservation : Bool
 evidence_landauer_token_conservation =
@@ -49,7 +51,7 @@ evidence_landauer_token_conservation =
 public export
 evidence_linear_qtt_conservation : Bool
 evidence_linear_qtt_conservation =
-  auditLinearQTTConservationProofExport
+  Reflect.Auditor.Evolution.auditLinearQTTConservationProofExport
 
 ------------------------------------------------------------------------
 -- ELABORATOR REFLECTION MACRO WITNESS
@@ -62,7 +64,7 @@ proof_landauer_token_refl = auditLandauerTokenConservation
 
 ||| Compile-time Reflection Witness proving Linear QTT State Transition Conservation
 public export
-proof_linear_qtt_refl : Reflect.InvariantAuditor.auditLinearQTTConservationProofExport = True
+proof_linear_qtt_refl : Reflect.Auditor.Evolution.auditLinearQTTConservationProofExport = True
 proof_linear_qtt_refl = auditLinearQTTConservation
 ```
 

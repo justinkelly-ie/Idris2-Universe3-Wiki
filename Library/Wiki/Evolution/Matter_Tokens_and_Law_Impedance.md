@@ -40,6 +40,7 @@ $$\text{Physical Observable } \mathcal{O} = \frac{\text{Visible Matter State } (
 
 ```idris
 module Evolution.Matter_Tokens_and_Law_Impedance
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law38_Discrete_Hodgkin_Huxley_Action_Potentials
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

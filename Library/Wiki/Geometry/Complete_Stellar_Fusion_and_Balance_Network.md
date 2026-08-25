@@ -45,11 +45,13 @@ Every reaction is verified as an exact non-trivial, disjoint `BalanceArray`:
 
 ```idris
 module Geometry.Complete_Stellar_Fusion_and_Balance_Network
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
 import Compound.StellarNucleosynthesis
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Compound
 
 %default total
 
@@ -65,8 +67,8 @@ evidence_triple_alpha_phosphorus = Compound.StellarNucleosynthesis.auditTripleAl
 
 ||| Compile-time Reflection Witness 118 (Elaborator Macro)
 public export
-witness_stellar_fusion_balance : Reflect.InvariantAuditor.auditStellarFusionBalanceNetworkProofExport = True
-witness_stellar_fusion_balance = Refl
+witness_stellar_fusion_balance : Reflect.Auditor.Compound.auditStellarFusionBalanceNetworkProofExport = True
+witness_stellar_fusion_balance = auditStellarFusionBalanceNetwork
 ```
 
 ---

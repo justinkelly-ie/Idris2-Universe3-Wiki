@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 19**, establishing the exact discrete the
 
 ```idris
 module Geometry.Law19_Discrete_Hawking_Unruh_Radiation
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

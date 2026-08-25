@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law35_Discrete_Ryu_Takayanagi_Holographic_Entanglement
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

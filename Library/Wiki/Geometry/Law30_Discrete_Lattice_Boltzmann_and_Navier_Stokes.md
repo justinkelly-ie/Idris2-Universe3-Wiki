@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law30_Discrete_Lattice_Boltzmann_and_Navier_Stokes
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

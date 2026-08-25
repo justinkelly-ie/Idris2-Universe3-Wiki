@@ -78,7 +78,9 @@ This section derives the 4 fundamental geometries, 17 emergent physical laws, ga
 * [Law 32: Discrete Topological Insulators & Bulk-Boundary Correspondence](Law32_Discrete_Topological_Insulators_and_Edge_States.md) — Bulk $\mathbb{Z}_2$ parity invariant locking gapless chiral edge state conduction channels.
 * [Law 33: Discrete Quantum Teleportation & Entanglement Swapping](Law33_Discrete_Quantum_Teleportation_and_Entanglement_Swapping.md) — Exact Bell-state measurement, 2-bit classical LOCC channel, and state reconstruction.
 * [Law 34: Discrete Jaynes-Cummings Cavity QED & Vacuum Rabi Splitting](Law34_Discrete_Jaynes_Cummings_and_Vacuum_Rabi_Splitting.md) — Discrete atom-photon interaction Hamiltonian and dressed polariton energy splittings.
+* [Law 35: Discrete Ryu-Takayanagi Holographic Entanglement Formula](Law35_Discrete_Ryu_Takayanagi_Holographic_Entanglement.md) — Exact boundary von Neumann entanglement entropy $S_A = \text{Area}(\gamma_A) / 4$ via bulk minimal surfaces.
 * [Law 36: Discrete Kitaev Toric Code & Topological Error Correction](Law36_Discrete_Kitaev_Toric_Code_and_Error_Correction.md) — Star and plaquette stabilizers with $4^g$ ground-state degeneracy and localized anyonic error syndrome detection.
+
 * [Law 37: Discrete Michaelis-Menten Enzyme Kinetics](Law37_Discrete_Michaelis_Menten_Enzyme_Kinetics.md) — Exact integer enzyme conservation $[E]_0 = [E] + [ES]$ and hyperbolic saturation velocity.
 * [Law 38: Discrete Hodgkin-Huxley Action Potentials](Law38_Discrete_Hodgkin_Huxley_Action_Potentials.md) — Voltage threshold depolarization, $m^3h$ sodium activation, $n^4$ delayed rectification, and refractory reset.
 * [Law 39: Discrete Monod-Wyman-Changeux Allostery](Law39_Discrete_Monod_Wyman_Changeux_Allostery.md) — Two-state $T \leftrightarrow R$ quaternary transition and sigmoidal cooperativity ($n_H > 1$).

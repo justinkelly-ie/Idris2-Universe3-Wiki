@@ -49,6 +49,7 @@ Non-Abelian gluon exchange operators ($P_{RG}, P_{GB}, P_{BR}$) swap these geome
 
 ```idris
 module Geometry.Wilson_Polyhedra_and_NonAbelian_Color_Flux
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

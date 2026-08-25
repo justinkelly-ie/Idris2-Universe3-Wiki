@@ -56,12 +56,15 @@ Minimizing the discrete free energy confirms the global thermodynamic ground sta
 
 ```idris
 module Geometry.Caret_FIA_Boltzmann_Partition_and_Cosmic_Budget
+import Language.Reflection
+import Reflect.Auditor.Math
 
 import Core.BoxInt
 import Core.Polynumber
 import Math.DiscreteBoltzmannDistribution
 import Math.HelmholtzFreeEnergy
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Geometry
 
 %default total
 
@@ -77,8 +80,8 @@ evidence_caret_helmholtz_minimization = Math.HelmholtzFreeEnergy.auditCaretHelmh
 
 ||| Compile-time Reflection Witness 117 (Elaborator Macro)
 public export
-witness_caret_boltzmann_partition : Reflect.InvariantAuditor.auditCaretBoltzmannPartitionProofExport = True
-witness_caret_boltzmann_partition = Refl
+witness_caret_boltzmann_partition : Reflect.Auditor.Math.auditCaretBoltzmannPartitionProofExport = True
+witness_caret_boltzmann_partition = auditCaretBoltzmannPartition
 ```
 
 ---

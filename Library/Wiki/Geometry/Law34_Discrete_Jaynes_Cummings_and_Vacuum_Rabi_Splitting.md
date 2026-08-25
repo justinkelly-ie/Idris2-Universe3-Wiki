@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law34_Discrete_Jaynes_Cummings_and_Vacuum_Rabi_Splitting
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

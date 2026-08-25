@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law42_Discrete_Alfven_MHD_and_Flux_Freezing
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

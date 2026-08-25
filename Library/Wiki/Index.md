@@ -8,8 +8,9 @@ Every chapter in this wiki is an **executable Literate Idris 2 module** that pro
 ## 🗺️ Cross-Disciplinary Mapping & Bibliographic Reference
 
 * **[The Universal Rosetta Stone](Foundations/Universal_Rosetta_Stone.md)** — Comprehensive tripartite isomorphism table mapping Constructive Finite Mathematics, Cosmological Physics, and Idris 2 QTT.
-* **[The Algebraic Family Tree of Physical Laws](Foundations/Algebraic_Family_Tree_of_Physical_Laws.md)** — Visual parent/sibling/child dependency graph and Algebra-Driven Design (ADD) observation architecture for Laws 1–28.
-* **[The Emergent Physical Laws & Academic Bibliography](Verification/Physical_Laws_Bibliography_and_Sources.md)** — Verified citations, DOIs, and primary historical sources for the emergent physical laws (Laws 1–28).
+* **[The Algebraic Family Tree of Physical Laws](Foundations/Algebraic_Family_Tree_of_Physical_Laws.md)** — Visual parent/sibling/child dependency graph and Algebra-Driven Design (ADD) observation architecture for Laws 1–44.
+* **[The Emergent Physical Laws & Academic Bibliography](Verification/Physical_Laws_Bibliography_and_Sources.md)** — Verified citations, DOIs, and primary historical sources for the emergent physical laws (Laws 1–44).
+
 * **[Type Signatures & API Catalog](Verification/Type_Signatures_and_API_Catalog.md)** — Dynamically generated, authoritative reference of all records, algebraic data types, and state transitions.
 
 ---
@@ -116,7 +117,9 @@ Every chapter in this wiki is an **executable Literate Idris 2 module** that pro
 * [Law 32: Discrete Topological Insulators & Bulk-Boundary Correspondence](Geometry/Law32_Discrete_Topological_Insulators_and_Edge_States.md)
 * [Law 33: Discrete Quantum Teleportation & Entanglement Swapping](Geometry/Law33_Discrete_Quantum_Teleportation_and_Entanglement_Swapping.md)
 * [Law 34: Discrete Jaynes-Cummings Cavity QED & Vacuum Rabi Splitting](Geometry/Law34_Discrete_Jaynes_Cummings_and_Vacuum_Rabi_Splitting.md)
+* [Law 35: Discrete Ryu-Takayanagi Holographic Entanglement Formula](Geometry/Law35_Discrete_Ryu_Takayanagi_Holographic_Entanglement.md)
 * [Law 36: Discrete Kitaev Toric Code & Topological Error Correction](Geometry/Law36_Discrete_Kitaev_Toric_Code_and_Error_Correction.md)
+
 * [Law 37: Discrete Michaelis-Menten Enzyme Kinetics](Geometry/Law37_Discrete_Michaelis_Menten_Enzyme_Kinetics.md)
 * [Law 38: Discrete Hodgkin-Huxley Action Potentials](Geometry/Law38_Discrete_Hodgkin_Huxley_Action_Potentials.md)
 * [Law 39: Discrete Monod-Wyman-Changeux Allostery](Geometry/Law39_Discrete_Monod_Wyman_Changeux_Allostery.md)
@@ -154,3 +157,9 @@ Every chapter in this wiki is an **executable Literate Idris 2 module** that pro
 * [Type Signatures & API Catalog](Verification/Type_Signatures_and_API_Catalog.md)
 * [Structural Associativity Proof](Verification/Structural_Associativity_Proof.md)
 * [Cosmological Inferences, Quantum Deductions & Elaborator Verification](Verification/Cosmological_Inferences_and_Deductions.md)
+
+### 6. Observation & Empirical Dataset Registry
+* [Scientific & Algebraic Observation Dual Architecture](Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.md)
+* [Empirical Scientific Dataset Registry](Observation/Empirical_Scientific_Dataset_Registry.md)
+* [The Cosmological Observation Triad](Observation/The_Cosmological_Observation_Triad.md)
+

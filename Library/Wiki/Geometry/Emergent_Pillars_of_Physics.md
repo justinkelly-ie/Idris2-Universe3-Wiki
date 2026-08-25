@@ -153,6 +153,7 @@ In **Idris2-Universe2**, the foundational laws of physical reality are **neither
 
 ```idris
 module Geometry.Emergent_Pillars_of_Physics
+import Language.Reflection
 
 import Core.BoxInt
 import Math.Infinitesimal

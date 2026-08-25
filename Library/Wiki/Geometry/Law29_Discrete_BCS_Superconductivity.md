@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law29_Discrete_BCS_Superconductivity
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

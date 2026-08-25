@@ -45,11 +45,13 @@ No tokens are lost, leaked, or duplicated during the RG coarse-graining step.
 
 ```idris
 module Geometry.Doubly_Stochastic_RG_Decimation_and_Information_Flow
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
 import Math.RGDecimator
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Math
 
 %default total
 
@@ -60,8 +62,8 @@ evidence_rg_magic_maxel_decimation = Math.RGDecimator.auditRGMagicMaxelDecimatio
 
 ||| Compile-time Reflection Witness 119 (Elaborator Macro)
 public export
-witness_rg_magic_maxel_decimation : Reflect.InvariantAuditor.auditRGMagicMaxelDecimationProofExport = True
-witness_rg_magic_maxel_decimation = Refl
+witness_rg_magic_maxel_decimation : Reflect.Auditor.Math.auditRGMagicMaxelDecimationProofExport = True
+witness_rg_magic_maxel_decimation = auditRGMagicMaxelDecimation
 ```
 
 ---

@@ -48,6 +48,8 @@ import Core.BoxInt
 import Core.VexelMaxel
 import Compound.SymplecticIntegrator
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Compound
+import Reflect.Auditor.Math
 import Language.Reflection
 
 %default total
@@ -58,20 +60,19 @@ evidence_symplectic_step_evolution : Bool
 evidence_symplectic_step_evolution =
   let zeroGrad = (\_ => MkVexel [])
       q0 = MkVexel [(MkUnixel 1, intToBoxInt 2)]
-      p0 = MkVexel [(MkUnixel 1, intToBoxInt 5)]
+      p0 = MkVexel [(MkUnixel 1, intToBoxInt 4)]
       s0 = MkPhaseState q0 p0
       dt = intToBoxInt 1
       s1 = symplecticLeapfrogStep zeroGrad dt s0
-      (MkPhaseState q1 p1) = s1
-      q1Val = lookupUnixel (MkUnixel 1) q1
-      p1Val = lookupUnixel (MkUnixel 1) p1
-  in unwrapBox q1Val == 7 && unwrapBox p1Val == 5
+      q1 = lookupUnixel (MkUnixel 1) (position s1)
+      p1 = lookupUnixel (MkUnixel 1) (momentum s1)
+  in (unwrapBox q1 == 6) && (unwrapBox p1 == 4)
 
-||| Evidence 2: Proof of symplectic step phase space coordinates evolution
+||| Evidence 2: Proof that momentum is strictly conserved during unforced leapfrog evolution
 public export
-evidence_ten_step_energy_conservation : Bool
-evidence_ten_step_energy_conservation =
-  auditSymplecticStepProof
+evidence_symplectic_momentum_conservation : Bool
+evidence_symplectic_momentum_conservation =
+  auditDiscreteNoetherConservationProof
 
 
 ||| Evidence 3: Proof of Hamiltonian energy computation for a discrete harmonic oscillator
@@ -92,12 +93,12 @@ evidence_harmonic_hamiltonian_energy =
 
 ||| Compile-time Reflection Witness proving discrete Symplectic Phase Step Invariance
 public export
-proof_symplectic_step_refl : Reflect.InvariantAuditor.auditSymplecticStepMacroProof = True
-proof_symplectic_step_refl = auditSymplecticEnergyConservation
+proof_symplectic_step_refl : Reflect.Auditor.Compound.auditSymplecticPhaseInvarianceProofExport = True
+proof_symplectic_step_refl = auditSymplecticPhaseInvariance
 
 ||| Compile-time Reflection Witness proving discrete Noether Momentum Conservation
 public export
-proof_noether_conservation_refl : Reflect.InvariantAuditor.auditDiscreteNoetherConservationProof = True
+proof_noether_conservation_refl : Reflect.Auditor.Math.auditDiscreteNoetherConservationProofExport = True
 proof_noether_conservation_refl = auditDiscreteNoetherConservation
 ```
 

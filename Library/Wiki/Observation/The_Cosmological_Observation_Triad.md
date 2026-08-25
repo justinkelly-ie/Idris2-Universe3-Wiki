@@ -8,6 +8,7 @@
 
 ```idris
 module Observation.The_Cosmological_Observation_Triad
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

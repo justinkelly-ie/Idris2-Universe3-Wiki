@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law31_Discrete_Belousov_Zhabotinsky_Oscillations
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

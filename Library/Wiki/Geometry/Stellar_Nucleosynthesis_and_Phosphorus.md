@@ -40,6 +40,7 @@ Phosphorus synthesis provides the pentavalent bridge required for:
 
 ```idris
 module Geometry.Stellar_Nucleosynthesis_and_Phosphorus
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

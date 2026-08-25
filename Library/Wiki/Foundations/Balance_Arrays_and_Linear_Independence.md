@@ -43,10 +43,12 @@ $$\mathcal{B} = \begin{pmatrix} c_1^+ & c_2^+ & \dots & c_n^+ \\ c_1^- & c_2^- &
 
 ```idris
 module Foundations.Balance_Arrays_and_Linear_Independence
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Core
 
 %default total
 
@@ -67,7 +69,7 @@ evidence_vexel_independence = Core.VexelMaxel.auditVexelLinearIndependenceProof
 
 ||| Evidence 4: Compile-Time Elaborator Reflection Macro (Witness 114)
 public export
-evidence_vexel_balance_reflection : Reflect.InvariantAuditor.auditVexelBalanceArrayProofExport = True
+evidence_vexel_balance_reflection : Reflect.Auditor.Core.auditVexelBalanceArrayProofExport = True
 evidence_vexel_balance_reflection = Refl
 ```
 

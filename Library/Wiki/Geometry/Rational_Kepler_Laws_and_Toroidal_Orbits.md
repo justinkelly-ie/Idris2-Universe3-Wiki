@@ -58,10 +58,12 @@ No irrational powers or non-algebraic limits are required.
 
 ```idris
 module Geometry.Rational_Kepler_Laws_and_Toroidal_Orbits
+import Language.Reflection
 
 import Core.BoxInt
 import Math.ToroidalAstrodynamics
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Math
 
 %default total
 
@@ -72,8 +74,8 @@ evidence_rational_kepler_laws = Math.ToroidalAstrodynamics.auditRationalKeplerLa
 
 ||| Compile-time Reflection Witness 120 (Elaborator Macro)
 public export
-witness_rational_kepler_laws : Reflect.InvariantAuditor.auditRationalKeplerLawsProofExport = True
-witness_rational_kepler_laws = Refl
+witness_rational_kepler_laws : Reflect.Auditor.Math.auditRationalKeplerLawsProofExport = True
+witness_rational_kepler_laws = auditRationalKeplerLaws
 ```
 
 ---

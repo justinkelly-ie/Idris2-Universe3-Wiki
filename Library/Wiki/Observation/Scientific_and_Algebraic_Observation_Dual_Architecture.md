@@ -7,6 +7,7 @@
 
 ```idris
 module Observation.Scientific_and_Algebraic_Observation_Dual_Architecture
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

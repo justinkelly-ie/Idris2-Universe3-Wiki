@@ -36,6 +36,7 @@ Hydrolysis of ATP into ADP and inorganic phosphate ($\text{P}_i$) releases discr
 
 ```idris
 module Geometry.Watson_Crick_Complementarity_and_Polyphosphates
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

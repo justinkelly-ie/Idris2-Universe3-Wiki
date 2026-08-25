@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 28**, governing multi-channel mesoscopic 
 
 ```idris
 module Geometry.Law28_Discrete_Landauer_Buettiker_Quantum_Conduction
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

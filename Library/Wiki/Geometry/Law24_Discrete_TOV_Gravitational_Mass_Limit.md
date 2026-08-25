@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 24**, establishing the maximum stable mas
 
 ```idris
 module Geometry.Law24_Discrete_TOV_Gravitational_Mass_Limit
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

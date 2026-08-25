@@ -4,6 +4,7 @@
 
 ```idris
 module Foundations.High_Level_Review_of_Multiset_Algebra_Synthesis
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

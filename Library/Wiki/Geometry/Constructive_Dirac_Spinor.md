@@ -26,6 +26,7 @@ In **Idris2-Universe2**, spinors and the Dirac equation are formulated using **C
 
 ```idris
 module Geometry.Constructive_Dirac_Spinor
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

@@ -1,6 +1,7 @@
-# 🌳 The Algebraic Family Tree of Emergent Physical Laws (Laws 1–28)
+# 🌳 The Algebraic Family Tree of Emergent Physical Laws (Laws 1–44)
 
-This chapter formalizes the **Algebraic Family Tree** of all 28 Emergent Physical Laws using the principles of **Algebra-Driven Design (ADD)** (*Sandy Maguire, 2020*) and **Quantitative Type Theory (QTT)** (*Sandy Maguire, 2018; Idris 2*).
+This chapter formalizes the **Algebraic Family Tree** of all 44 Emergent Physical Laws using the principles of **Algebra-Driven Design (ADD)** (*Sandy Maguire, 2020*) and **Quantitative Type Theory (QTT)** (*Sandy Maguire, 2018; Idris 2*).
+
 
 ```idris
 module Foundations.Algebraic_Family_Tree_of_Physical_Laws

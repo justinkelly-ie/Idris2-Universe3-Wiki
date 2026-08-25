@@ -50,6 +50,7 @@ In **Idris2-Universe2**, the **Substrate Causal Arrow** ($g_{22} = 0, g_{12} = 1
 
 ```idris
 module Geometry.Tier6_Macromolecules_and_Chiral_Stereochemistry
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

@@ -18,6 +18,7 @@ $$f(x + \epsilon) = f(x) + f'(x)\epsilon$$
 
 ```idris
 module Foundations.Nilpotent_Infinitesimals
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

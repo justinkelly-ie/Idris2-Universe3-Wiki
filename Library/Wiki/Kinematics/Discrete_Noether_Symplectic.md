@@ -25,6 +25,7 @@ In **Idris2-Universe2**, exact conservation laws hold on discrete lattices witho
 
 ```idris
 module Kinematics.Discrete_Noether_Symplectic
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

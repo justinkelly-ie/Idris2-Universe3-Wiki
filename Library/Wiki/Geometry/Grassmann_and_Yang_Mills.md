@@ -39,6 +39,7 @@ Because every interior edge in a face loop and every face in a voxel boundary ca
 
 ```idris
 module Geometry.Grassmann_and_Yang_Mills
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

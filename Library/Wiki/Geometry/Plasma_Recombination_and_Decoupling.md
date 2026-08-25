@@ -30,6 +30,7 @@ Photons decouple from baryonic matter, propagating freely across the 3-torus wit
 
 ```idris
 module Geometry.Plasma_Recombination_and_Decoupling
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

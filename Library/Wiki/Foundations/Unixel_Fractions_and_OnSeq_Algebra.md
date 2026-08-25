@@ -34,6 +34,7 @@ In constructive finitist mathematics, two fundamental algebraic structures elimi
 
 ```idris
 module Foundations.Unixel_Fractions_and_OnSeq_Algebra
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law37_Discrete_Michaelis_Menten_Enzyme_Kinetics
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

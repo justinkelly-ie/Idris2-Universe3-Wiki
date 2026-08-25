@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law33_Discrete_Quantum_Teleportation_and_Entanglement_Swapping
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

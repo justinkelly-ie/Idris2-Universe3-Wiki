@@ -8,6 +8,7 @@ The cosmic evolution begins at the Genesis vacuum and recursively contracts/fold
 
 ```idris
 module Evolution.Bootstrap_Epoch_1_to_37
+import Language.Reflection
 
 import Core.BoxInt
 import Evolution.State

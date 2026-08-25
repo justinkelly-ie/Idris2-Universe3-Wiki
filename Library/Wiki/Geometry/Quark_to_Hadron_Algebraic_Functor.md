@@ -4,6 +4,7 @@ This chapter formalizes the **Quark-to-Hadron Multiset Functor**, showing how co
 
 ```idris
 module Geometry.Quark_to_Hadron_Algebraic_Functor
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

@@ -4,6 +4,7 @@ This chapter formalizes the **Discrete Earth Mover's Distance ($W_1$)** between 
 
 ```idris
 module Geometry.Constructive_Wasserstein_and_Optimal_Transport
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

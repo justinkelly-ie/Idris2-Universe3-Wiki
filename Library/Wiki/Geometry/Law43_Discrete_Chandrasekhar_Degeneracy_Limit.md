@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law43_Discrete_Chandrasekhar_Degeneracy_Limit
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

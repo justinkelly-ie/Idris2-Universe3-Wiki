@@ -51,6 +51,7 @@ $$\operatorname{Tr}(W'_\square) \equiv \operatorname{Tr}(W_\square)$$
 
 ```idris
 module Foundations.Quantum_State_Transitions_and_Wilson_Loops
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

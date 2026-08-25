@@ -36,6 +36,7 @@ In liquid water, water hexamers form stable 1:1 molecule-to-H-bond percolation r
 
 ```idris
 module Geometry.Hydrogen_Bonding_and_Aqueous_Percolation
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel

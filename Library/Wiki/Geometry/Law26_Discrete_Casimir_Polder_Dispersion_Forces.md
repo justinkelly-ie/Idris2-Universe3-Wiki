@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 26**, governing vacuum-induced intermolec
 
 ```idris
 module Geometry.Law26_Discrete_Casimir_Polder_Dispersion_Forces
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

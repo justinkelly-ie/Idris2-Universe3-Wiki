@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law41_Discrete_Kerr_Metric_and_Penrose_Process
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

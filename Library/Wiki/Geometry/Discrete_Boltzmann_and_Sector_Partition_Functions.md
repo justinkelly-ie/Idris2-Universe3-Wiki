@@ -62,6 +62,7 @@ This drops thermodynamic entropy to $S = 0$ and maximizes the **Multiset Compact
 
 ```idris
 module Geometry.Discrete_Boltzmann_and_Sector_Partition_Functions
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

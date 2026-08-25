@@ -8,6 +8,7 @@ In **Idris2-Universe2**, velocity routing across scale jumps is lensed and retar
 
 ```idris
 module Kinematics.Causal_Posets_and_Lensing
+import Language.Reflection
 
 import Core.BoxInt
 import Evolution.State

@@ -48,6 +48,7 @@ For three container states $A, B, C$ meeting at vertex $B$ with side quadrances 
 
 ```idris
 module Foundations.Box_Difference_Quadrance_and_Spread_Metrics
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
@@ -55,6 +56,7 @@ import Core.Multiset
 import Core.UnixelFraction
 import Math.RationalTrig
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Math
 
 %default total
 
@@ -70,8 +72,8 @@ evidence_box_collinearity = Math.RationalTrig.auditBoxCollinearitySpreadProof
 
 ||| Compile-time Reflection Witness 116 (Elaborator Macro)
 public export
-witness_box_quadrance_spread : Reflect.InvariantAuditor.auditBoxQuadranceAndSpreadProofExport = True
-witness_box_quadrance_spread = Refl
+witness_box_quadrance_spread : Reflect.Auditor.Math.auditBoxQuadranceAndSpreadProofExport = True
+witness_box_quadrance_spread = auditBoxQuadranceAndSpread
 ```
 
 ---

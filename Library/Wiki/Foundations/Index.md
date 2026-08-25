@@ -8,7 +8,8 @@ This section establishes the mathematical axioms, data structures, and algebraic
 
 * [Universal Mapping & Notation](Universal_Mapping.md) — Grounding modern physics in constructivist discrete math.
 * [The Universal Rosetta Stone](Universal_Rosetta_Stone.md) — Isomorphism table mapping Finite Mathematics, Cosmological Physics, and Idris 2 QTT.
-* [The Algebraic Family Tree of Physical Laws](Algebraic_Family_Tree_of_Physical_Laws.md) — Visual parent/sibling/child dependency graph and Algebra-Driven Design (ADD) observation architecture for Laws 1–28.
+* [The Algebraic Family Tree of Physical Laws](Algebraic_Family_Tree_of_Physical_Laws.md) — Visual parent/sibling/child dependency graph and Algebra-Driven Design (ADD) observation architecture for Laws 1–44.
+
 * [Type-Indexed Multiset Synthesis](Type_Indexed_Multiset_Synthesis.md) — Synthesizing Pure Multiset Token Carriers with Zero-Overhead Type-Level Refinements (Algebra-Driven Design + Thinking with Types).
 * [A Plain-Language Guide to the Multiset-Algebra Synthesis](High_Level_Review_of_Multiset_Algebra_Synthesis.md) — High-level, accessible review of the synthesis for non-computer scientists and physicists.
 * [Universal Algebra & The Multiset Interpretation](Universal_Algebra_and_Multiset_Interpretation.md) — Pure algebraic alternative to category theory: multi-sorted term rewriting, semantic multiset valuation, and Dershowitz-Manna termination.

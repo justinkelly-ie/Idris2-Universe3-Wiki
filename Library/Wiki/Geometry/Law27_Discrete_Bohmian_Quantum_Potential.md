@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 27**, establishing a deterministic causal
 
 ```idris
 module Geometry.Law27_Discrete_Bohmian_Quantum_Potential
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

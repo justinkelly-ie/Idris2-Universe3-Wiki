@@ -4,6 +4,7 @@ This chapter formalizes the **synthesis of Pure Multiset Token Carriers with Typ
 
 ```idris
 module Foundations.Type_Indexed_Multiset_Synthesis
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 22**, governing linear non-equilibrium th
 
 ```idris
 module Geometry.Law22_Discrete_Onsager_Reciprocity_and_Microscopic_Reversibility
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

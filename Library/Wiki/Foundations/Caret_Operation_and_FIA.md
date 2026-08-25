@@ -40,6 +40,7 @@ $$\Sigma_0[p \wedge q] = \Sigma_0[p] \cdot \Sigma_0[q]$$
 
 ```idris
 module Foundations.Caret_Operation_and_FIA
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Polynumber

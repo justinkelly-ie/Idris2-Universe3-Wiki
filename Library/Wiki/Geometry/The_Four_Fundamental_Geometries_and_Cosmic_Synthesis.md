@@ -58,6 +58,7 @@ In **Idris2-Universe2**, space, time, gauge dynamics, and thermodynamics emerge 
 
 ```idris
 module Geometry.The_Four_Fundamental_Geometries_and_Cosmic_Synthesis
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Polynumber

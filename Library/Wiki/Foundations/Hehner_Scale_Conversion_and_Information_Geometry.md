@@ -97,6 +97,8 @@ import Core.Multiset
 import Core.VexelMaxel
 import Core.UnixelFraction
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Core
+import Reflect.Auditor.Observation
 import Language.Reflection
 
 %default total
@@ -138,11 +140,11 @@ evidence_multiset_information_distance_axioms =
 
 ||| Evidence 6: Proof of Multiset Born Rule and Decision Token Triad
 public export
-evidence_multiset_born_rule_triad : Bool
-evidence_multiset_born_rule_triad =
+evidence_multiset_born_rule : Bool
+evidence_multiset_born_rule =
   auditMultisetHehnerTriadProof
 
-||| Evidence 7: Proof of Multiset Cross-Entropy Properties (Self-Entropy Minimum vs Disjoint Maximum)
+||| Evidence 7: Proof of Multiset Cross-Entropy Properties (Self-entropy minimization & Mismatch bound)
 public export
 evidence_multiset_cross_entropy : Bool
 evidence_multiset_cross_entropy =
@@ -160,27 +162,27 @@ evidence_multiset_compactness_ratio =
 
 ||| Compile-time Reflection Witness proving Hehner Scale Conversion and Cosmic Normalization
 public export
-proof_hehner_scale_conversion_refl : Reflect.InvariantAuditor.auditHehnerScaleConversionMacroProof = True
+proof_hehner_scale_conversion_refl : Reflect.Auditor.Core.auditHehnerScaleConversionProofExport = True
 proof_hehner_scale_conversion_refl = auditHehnerScaleConversion
 
 ||| Compile-time Reflection Witness proving Multiset Information Distance Metric Axioms
 public export
-proof_multiset_information_distance_refl : Reflect.InvariantAuditor.auditMultisetInformationDistanceMacroProof = True
+proof_multiset_information_distance_refl : Reflect.Auditor.Core.auditMultisetInformationDistanceProofExport = True
 proof_multiset_information_distance_refl = auditMultisetInformationDistance
 
 ||| Compile-time Reflection Witness proving Multiset Born Rule and Hehner Triad
 public export
-proof_multiset_born_rule_refl : Reflect.InvariantAuditor.auditMultisetHehnerTriadMacroProof = True
+proof_multiset_born_rule_refl : Reflect.Auditor.Observation.auditMultisetHehnerTriadProofExport = True
 proof_multiset_born_rule_refl = auditMultisetHehnerTriad
 
 ||| Compile-time Reflection Witness proving Multiset Cross-Entropy Properties
 public export
-proof_multiset_cross_entropy_refl : Reflect.InvariantAuditor.auditMultisetCrossEntropyMacroProof = True
+proof_multiset_cross_entropy_refl : Reflect.Auditor.Core.auditMultisetCrossEntropyProofExport = True
 proof_multiset_cross_entropy_refl = auditMultisetCrossEntropy
 
 ||| Compile-time Reflection Witness proving Multiset Compactness Ratio Bounds
 public export
-proof_multiset_compactness_refl : Reflect.InvariantAuditor.auditMultisetCompactnessMacroProof = True
+proof_multiset_compactness_refl : Reflect.Auditor.Core.auditMultisetCompactnessProofExport = True
 proof_multiset_compactness_refl = auditMultisetCompactness
 ```
 

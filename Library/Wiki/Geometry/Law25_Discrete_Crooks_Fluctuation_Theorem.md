@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 25**, governing exact non-equilibrium mic
 
 ```idris
 module Geometry.Law25_Discrete_Crooks_Fluctuation_Theorem
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

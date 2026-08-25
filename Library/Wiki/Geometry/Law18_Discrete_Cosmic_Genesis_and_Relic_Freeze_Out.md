@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 18**, governing the constructive initial 
 
 ```idris
 module Geometry.Law18_Discrete_Cosmic_Genesis_and_Relic_Freeze_Out
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

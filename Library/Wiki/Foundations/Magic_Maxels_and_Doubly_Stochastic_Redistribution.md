@@ -41,10 +41,12 @@ By the discrete Birkhoff theorem, every natural Magic Maxel decomposes into a no
 
 ```idris
 module Foundations.Magic_Maxels_and_Doubly_Stochastic_Redistribution
+import Language.Reflection
 
 import Core.BoxInt
 import Core.VexelMaxel
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Core
 
 %default total
 
@@ -60,8 +62,8 @@ evidence_magic_identity = Core.VexelMaxel.auditMagicMaxelIdentityProof
 
 ||| Compile-time Reflection Witness 115 (Elaborator Macro)
 public export
-witness_magic_maxel_conservation : Reflect.InvariantAuditor.auditMagicMaxelConservationProofExport = True
-witness_magic_maxel_conservation = Refl
+witness_magic_maxel_conservation : Reflect.Auditor.Core.auditMagicMaxelConservationProofExport = True
+witness_magic_maxel_conservation = auditMagicMaxelConservation
 ```
 
 ---

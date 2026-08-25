@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 20**, governing non-dissipative transvers
 
 ```idris
 module Geometry.Law20_Discrete_Hall_Viscosity_and_Topological_Transport
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

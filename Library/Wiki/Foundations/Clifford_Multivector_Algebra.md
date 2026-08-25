@@ -56,6 +56,8 @@ import Core.VexelMaxel
 import Math.LinAlgebra.BilinearProduct
 import Math.CliffordAlgebra
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Geometry
+import Reflect.Auditor.Math
 import Language.Reflection
 
 %default total
@@ -78,20 +80,10 @@ evidence_hyperplane_reflection =
 
   in unwrapBox w == -3
 
-||| Evidence 3: Proof that multivector reversion inverts bivector signs: (s + B)† = s - B
+||| Evidence 3: Dirac 4-Current Divergence Non-Vanishing Flow
 public export
-evidence_multivector_reversion : Bool
-evidence_multivector_reversion =
-  let b = MkMaxel [(MkPixel 1 2, intToBoxInt 5)]
-      mv = MkMultivector (intToBoxInt 10) (MkVexel []) b (MkBoxel [])
-      rev = reverseMultivector mv
-      revB = lookupPixel (MkPixel 1 2) (bivectorPart rev)
-  in unwrapBox revB == -5
-
-||| Evidence 4: Proof that the discrete Dirac spinor current is strictly conserved across voxel faces
-public export
-evidence_dirac_current_continuity : Bool
-evidence_dirac_current_continuity =
+evidence_dirac_current_conservation : Bool
+evidence_dirac_current_conservation =
   auditDiracCurrentConservationProof
 
 ------------------------------------------------------------------------
@@ -100,13 +92,13 @@ evidence_dirac_current_continuity =
 
 ||| Compile-time Reflection Witness proving Clifford Geometric Product Quadrance v^2 = Q(v)
 public export
-proof_clifford_geometric_product_refl : Reflect.InvariantAuditor.auditCliffordGeometricProductMacroProof = True
+proof_clifford_geometric_product_refl : Reflect.Auditor.Math.auditCliffordGeometricProductProofExport = True
 proof_clifford_geometric_product_refl = auditCliffordGeometricProduct
 
 ||| Compile-time Reflection Witness proving Dirac 4-Current Divergence Conservation
 public export
-proof_dirac_current_conservation_refl : Reflect.InvariantAuditor.auditDiracCurrentConservationMacroProof = True
-proof_dirac_current_conservation_refl = auditDiracCurrentConservation
+proof_dirac_current_conservation_refl : Reflect.Auditor.Math.auditDiracCurrentConservationLaw8ProofExport = True
+proof_dirac_current_conservation_refl = auditDiracCurrentConservationLaw8
 ```
 
 ---

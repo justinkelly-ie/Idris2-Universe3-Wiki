@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law40_Discrete_Ribosomal_Translation_and_Genetic_Code
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction

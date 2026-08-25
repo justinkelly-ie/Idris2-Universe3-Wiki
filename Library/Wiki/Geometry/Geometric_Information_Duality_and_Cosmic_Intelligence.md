@@ -77,6 +77,7 @@ Information transfer is literally **differential 2-form flux passing through 2D 
 
 ```idris
 module Geometry.Geometric_Information_Duality_and_Cosmic_Intelligence
+import Reflect.Auditor.Math
 
 import Core.BoxInt
 import Core.Multiset
@@ -84,6 +85,7 @@ import Core.VexelMaxel
 import Core.UnixelFraction
 import Geometry.InformationGeometry
 import Reflect.InvariantAuditor
+import Reflect.Auditor.Geometry
 import Language.Reflection
 
 %default total
@@ -118,22 +120,22 @@ evidence_holographic_boundary_duality =
 
 ||| Compile-time Reflection Witness proving Hyperbolic Bit Duality
 public export
-proof_hyperbolic_bit_duality_refl : Reflect.InvariantAuditor.auditHyperbolicBitDualityMacroProof = True
+proof_hyperbolic_bit_duality_refl : Reflect.Auditor.Geometry.auditHyperbolicBitDualityProofExport = True
 proof_hyperbolic_bit_duality_refl = auditHyperbolicBitDuality
 
 ||| Compile-time Reflection Witness proving Clifford Compactness Duality
 public export
-proof_clifford_compactness_duality_refl : Reflect.InvariantAuditor.auditCliffordCompactnessDualityMacroProof = True
+proof_clifford_compactness_duality_refl : Reflect.Auditor.Geometry.auditCliffordCompactnessDualityProofExport = True
 proof_clifford_compactness_duality_refl = auditCliffordCompactnessDuality
 
 ||| Compile-time Reflection Witness proving Chromogeometric Cosmic Budget
 public export
-proof_chromogeometric_cosmic_budget_refl : Reflect.InvariantAuditor.auditChromogeometricBudgetMacroProof = True
+proof_chromogeometric_cosmic_budget_refl : Reflect.Auditor.Math.auditChromogeometricBudgetProofExport = True
 proof_chromogeometric_cosmic_budget_refl = auditChromogeometricBudget
 
 ||| Compile-time Reflection Witness proving Holographic Boundary Duality
 public export
-proof_holographic_boundary_duality_refl : Reflect.InvariantAuditor.auditHolographicBoundaryDualityMacroProof = True
+proof_holographic_boundary_duality_refl : Reflect.Auditor.Geometry.auditHolographicBoundaryDualityProofExport = True
 proof_holographic_boundary_duality_refl = auditHolographicBoundaryDuality
 ```
 

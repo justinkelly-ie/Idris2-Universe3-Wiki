@@ -4,6 +4,7 @@ This chapter formalizes **Physical Law 21**, establishing the unitary recovery o
 
 ```idris
 module Geometry.Law21_Discrete_Page_Curve_and_Unitary_Evaporation
+import Language.Reflection
 
 import Core.BoxInt
 import Core.Multiset

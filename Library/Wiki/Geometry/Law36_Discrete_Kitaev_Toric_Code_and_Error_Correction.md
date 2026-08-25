@@ -5,6 +5,7 @@
 
 ```idris
 module Geometry.Law36_Discrete_Kitaev_Toric_Code_and_Error_Correction
+import Language.Reflection
 
 import Core.BoxInt
 import Core.UnixelFraction
