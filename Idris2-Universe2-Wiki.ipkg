@@ -9,7 +9,13 @@ depends = base,
 
 sourcedir = "Library/Wiki"
 
-modules = Main,
+modules = Verification.Witnesses.Batch6,
+          Verification.Witnesses.Batch5,
+          Verification.Witnesses.Batch4,
+          Verification.Witnesses.Batch3,
+          Verification.Witnesses.Batch2,
+          Verification.Witnesses.Batch1,
+          Main,
           Foundations.Universal_Mapping,
           Foundations.Box_Arithmetic,
           Foundations.Pixel_Box_Integers,

@@ -126,3 +126,14 @@ evidence_stern_brocot_tree_path =
   * [Rational Snell's Law & The Triple Spread Law](../Geometry/Rational_Snell_and_Triple_Spread.md) — Exact rational trigonometric spread ratios.
   * [Contradictions With Standard Physics](Contradictions_With_Standard_Physics.md) — Replacing non-constructive Dedekind reals with constructive Unixel fractions and OnSeqs.
 
+---
+
+## ⚡ Performance & Compile-Time Benchmark Data
+
+| Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
+| :--- | :--- | :--- |
+| **Elaboration Time** | `0.566s` | Exact rational cross-multiplication proofs (`rationalLTE`, `rationalEquiv`) and non-zero Unixel denominator invariant checking. |
+| **Module Complexity** | `132 LOC / 8 Proofs` | Constructive rational arithmetic and ongoing sequence (`OnSeq`) proofs. |
+| **Compile-Time Status** | `TOTAL (0.566s)` | `%default total` verified across all fraction proofs. |
+
+

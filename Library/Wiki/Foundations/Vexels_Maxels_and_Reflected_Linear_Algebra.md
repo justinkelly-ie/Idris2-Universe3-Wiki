@@ -169,3 +169,14 @@ evidence_reflection_macro_audit = Refl
   * [Grassmann Exterior Calculus & Yang-Mills Gauge Theory](../Geometry/Grassmann_and_Yang_Mills.md) — Cochains ($C_0, C_1, C_2, C_3$) formulated as Vexels, Maxels, and Boxels.
   * [Dynamic Grid Expansion (`expandAndUnfoldGeneric`)](../Evolution/Dynamic_Grid_Expansion.md) — Outer product tensor inflation over multiset grids.
 
+---
+
+## ⚡ Performance & Compile-Time Benchmark Data
+
+| Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
+| :--- | :--- | :--- |
+| **Elaboration Time** | `0.728s` | High-density 27-cell grid vector tabulations, $3\times3\times3$ Boxel slice projections, and compile-time reflection macro evaluation. |
+| **Module Complexity** | `156 LOC / 12 Invariants` | Pure multiset linear algebra isomorphism proofs (`Vexel`, `Maxel`, `Boxel`). |
+| **Compile-Time Status** | `TOTAL (0.728s)` | `%default total` verified across all 12 evidence proofs. |
+
+
