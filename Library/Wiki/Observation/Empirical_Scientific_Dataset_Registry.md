@@ -43,7 +43,7 @@ proofOfEmpiricalRegistryValidity =
 
 public export
 proofOfEmpiricalRegistryWitness : Reflect.Auditor.Observation.auditScientificObservationDatasetProofExport = True
-proofOfEmpiricalRegistryWitness = auditScientificObservationDataset
+proofOfEmpiricalRegistryWitness = Refl
 ```
 
 

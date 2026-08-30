@@ -73,7 +73,7 @@ evidence_box_collinearity = Math.RationalTrig.auditBoxCollinearitySpreadProof
 ||| Compile-time Reflection Witness 116 (Elaborator Macro)
 public export
 witness_box_quadrance_spread : Reflect.Auditor.Math.auditBoxQuadranceAndSpreadProofExport = True
-witness_box_quadrance_spread = auditBoxQuadranceAndSpread
+witness_box_quadrance_spread = Refl
 ```
 
 ---

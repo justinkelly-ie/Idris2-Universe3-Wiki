@@ -94,12 +94,12 @@ evidence_harmonic_hamiltonian_energy =
 ||| Compile-time Reflection Witness proving discrete Symplectic Phase Step Invariance
 public export
 proof_symplectic_step_refl : Reflect.Auditor.Compound.auditSymplecticPhaseInvarianceProofExport = True
-proof_symplectic_step_refl = auditSymplecticPhaseInvariance
+proof_symplectic_step_refl = Refl
 
 ||| Compile-time Reflection Witness proving discrete Noether Momentum Conservation
 public export
 proof_noether_conservation_refl : Reflect.Auditor.Math.auditDiscreteNoetherConservationProofExport = True
-proof_noether_conservation_refl = auditDiscreteNoetherConservation
+proof_noether_conservation_refl = Refl
 ```
 
 ---

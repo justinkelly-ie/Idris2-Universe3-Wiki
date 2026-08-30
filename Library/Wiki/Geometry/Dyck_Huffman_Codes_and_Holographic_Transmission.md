@@ -68,7 +68,7 @@ evidence_dyck_huffman_holographic = Math.ShannonHuffmanOptimality.auditDyckHuffm
 ||| Compile-time Reflection Witness 121 (Elaborator Macro)
 public export
 witness_dyck_huffman_holographic : Reflect.Auditor.Math.auditDyckHuffmanHolographicProofExport = True
-witness_dyck_huffman_holographic = auditDyckHuffmanHolographic
+witness_dyck_huffman_holographic = Refl
 ```
 
 ---

@@ -93,12 +93,12 @@ evidence_dirac_current_conservation =
 ||| Compile-time Reflection Witness proving Clifford Geometric Product Quadrance v^2 = Q(v)
 public export
 proof_clifford_geometric_product_refl : Reflect.Auditor.Math.auditCliffordGeometricProductProofExport = True
-proof_clifford_geometric_product_refl = auditCliffordGeometricProduct
+proof_clifford_geometric_product_refl = Refl
 
 ||| Compile-time Reflection Witness proving Dirac 4-Current Divergence Conservation
 public export
 proof_dirac_current_conservation_refl : Reflect.Auditor.Math.auditDiracCurrentConservationLaw8ProofExport = True
-proof_dirac_current_conservation_refl = auditDiracCurrentConservationLaw8
+proof_dirac_current_conservation_refl = Refl
 ```
 
 ---

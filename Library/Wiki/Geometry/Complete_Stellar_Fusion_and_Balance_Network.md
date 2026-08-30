@@ -68,7 +68,7 @@ evidence_triple_alpha_phosphorus = Compound.StellarNucleosynthesis.auditTripleAl
 ||| Compile-time Reflection Witness 118 (Elaborator Macro)
 public export
 witness_stellar_fusion_balance : Reflect.Auditor.Compound.auditStellarFusionBalanceNetworkProofExport = True
-witness_stellar_fusion_balance = auditStellarFusionBalanceNetwork
+witness_stellar_fusion_balance = Refl
 ```
 
 ---

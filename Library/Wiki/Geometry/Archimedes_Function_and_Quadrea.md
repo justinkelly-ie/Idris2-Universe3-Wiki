@@ -34,6 +34,10 @@ public export
 evidence_pythagorean_quadrea : unwrapBox (quadrea (intToBoxInt 9) (intToBoxInt 16) (intToBoxInt 25)) = 576
 evidence_pythagorean_quadrea = Refl
 
+public export
+evidence_pythagorean_quadrea_bool : Bool
+evidence_pythagorean_quadrea_bool = unwrapBox (quadrea (intToBoxInt 9) (intToBoxInt 16) (intToBoxInt 25)) == 576
+
 ||| Evidence 2: Proof that collinear points with quadrances Q1=1, Q2=1, Q3=4 have A = 0
 public export
 evidence_collinear_zero : isCollinearQuadrance (intToBoxInt 1) (intToBoxInt 1) (intToBoxInt 4) = True

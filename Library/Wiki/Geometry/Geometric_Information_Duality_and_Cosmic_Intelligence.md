@@ -121,22 +121,22 @@ evidence_holographic_boundary_duality =
 ||| Compile-time Reflection Witness proving Hyperbolic Bit Duality
 public export
 proof_hyperbolic_bit_duality_refl : Reflect.Auditor.Geometry.auditHyperbolicBitDualityProofExport = True
-proof_hyperbolic_bit_duality_refl = auditHyperbolicBitDuality
+proof_hyperbolic_bit_duality_refl = Refl
 
 ||| Compile-time Reflection Witness proving Clifford Compactness Duality
 public export
 proof_clifford_compactness_duality_refl : Reflect.Auditor.Geometry.auditCliffordCompactnessDualityProofExport = True
-proof_clifford_compactness_duality_refl = auditCliffordCompactnessDuality
+proof_clifford_compactness_duality_refl = Refl
 
 ||| Compile-time Reflection Witness proving Chromogeometric Cosmic Budget
 public export
 proof_chromogeometric_cosmic_budget_refl : Reflect.Auditor.Math.auditChromogeometricBudgetProofExport = True
-proof_chromogeometric_cosmic_budget_refl = auditChromogeometricBudget
+proof_chromogeometric_cosmic_budget_refl = Refl
 
 ||| Compile-time Reflection Witness proving Holographic Boundary Duality
 public export
 proof_holographic_boundary_duality_refl : Reflect.Auditor.Geometry.auditHolographicBoundaryDualityProofExport = True
-proof_holographic_boundary_duality_refl = auditHolographicBoundaryDuality
+proof_holographic_boundary_duality_refl = Refl
 ```
 
 ---

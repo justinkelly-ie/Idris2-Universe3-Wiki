@@ -51,17 +51,17 @@ import Data.List
 ||| Evidence 1: Compile-Time Reflection Witness for Unixel Denominator Positivity.
 public export
 evidence_macro_singleton_positivity : Reflect.Auditor.Core.auditSingFractionPositivityProofExport = True
-evidence_macro_singleton_positivity = auditSingFractionPositivity
+evidence_macro_singleton_positivity = Refl
 
 ||| Evidence 2: Compile-Time Reflection Witness for Rational Cross-Multiplication Equivalence.
 public export
 evidence_macro_rational_equivalence : Reflect.Auditor.Core.auditRationalEquivalenceProofExport = True
-evidence_macro_rational_equivalence = auditRationalEquivalence
+evidence_macro_rational_equivalence = Refl
 
 ||| Evidence 3: Compile-Time Reflection Witness for OnSeq Clip Length Extraction.
 public export
 evidence_macro_onseq_clip_length : Reflect.Auditor.Core.auditOnSeqClipExtractionProofExport = True
-evidence_macro_onseq_clip_length = auditOnSeqClipExtraction
+evidence_macro_onseq_clip_length = Refl
 
 ||| Evidence 4: QTT Linear Fraction Splitting Conserves Total Numerator Energy:
 ||| Splitting 10/[3] into partition p=4 yields (4/[3], 6/[3]) where 4 + 6 = 10.

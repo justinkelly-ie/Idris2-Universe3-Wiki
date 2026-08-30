@@ -63,7 +63,7 @@ evidence_magic_identity = Core.VexelMaxel.auditMagicMaxelIdentityProof
 ||| Compile-time Reflection Witness 115 (Elaborator Macro)
 public export
 witness_magic_maxel_conservation : Reflect.Auditor.Core.auditMagicMaxelConservationProofExport = True
-witness_magic_maxel_conservation = auditMagicMaxelConservation
+witness_magic_maxel_conservation = Refl
 ```
 
 ---

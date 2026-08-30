@@ -63,7 +63,7 @@ evidence_rg_magic_maxel_decimation = Math.RGDecimator.auditRGMagicMaxelDecimatio
 ||| Compile-time Reflection Witness 119 (Elaborator Macro)
 public export
 witness_rg_magic_maxel_decimation : Reflect.Auditor.Math.auditRGMagicMaxelDecimationProofExport = True
-witness_rg_magic_maxel_decimation = auditRGMagicMaxelDecimation
+witness_rg_magic_maxel_decimation = Refl
 ```
 
 ---

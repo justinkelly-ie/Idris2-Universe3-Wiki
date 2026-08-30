@@ -163,27 +163,27 @@ evidence_multiset_compactness_ratio =
 ||| Compile-time Reflection Witness proving Hehner Scale Conversion and Cosmic Normalization
 public export
 proof_hehner_scale_conversion_refl : Reflect.Auditor.Core.auditHehnerScaleConversionProofExport = True
-proof_hehner_scale_conversion_refl = auditHehnerScaleConversion
+proof_hehner_scale_conversion_refl = Refl
 
 ||| Compile-time Reflection Witness proving Multiset Information Distance Metric Axioms
 public export
 proof_multiset_information_distance_refl : Reflect.Auditor.Core.auditMultisetInformationDistanceProofExport = True
-proof_multiset_information_distance_refl = auditMultisetInformationDistance
+proof_multiset_information_distance_refl = Refl
 
 ||| Compile-time Reflection Witness proving Multiset Born Rule and Hehner Triad
 public export
 proof_multiset_born_rule_refl : Reflect.Auditor.Observation.auditMultisetHehnerTriadProofExport = True
-proof_multiset_born_rule_refl = auditMultisetHehnerTriad
+proof_multiset_born_rule_refl = Refl
 
 ||| Compile-time Reflection Witness proving Multiset Cross-Entropy Properties
 public export
 proof_multiset_cross_entropy_refl : Reflect.Auditor.Core.auditMultisetCrossEntropyProofExport = True
-proof_multiset_cross_entropy_refl = auditMultisetCrossEntropy
+proof_multiset_cross_entropy_refl = Refl
 
 ||| Compile-time Reflection Witness proving Multiset Compactness Ratio Bounds
 public export
 proof_multiset_compactness_refl : Reflect.Auditor.Core.auditMultisetCompactnessProofExport = True
-proof_multiset_compactness_refl = auditMultisetCompactness
+proof_multiset_compactness_refl = Refl
 ```
 
 

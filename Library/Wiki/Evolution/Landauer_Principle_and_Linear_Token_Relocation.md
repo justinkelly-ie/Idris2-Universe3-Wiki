@@ -65,7 +65,7 @@ proof_landauer_token_refl = auditLandauerTokenConservation
 ||| Compile-time Reflection Witness proving Linear QTT State Transition Conservation
 public export
 proof_linear_qtt_refl : Reflect.Auditor.Evolution.auditLinearQTTConservationProofExport = True
-proof_linear_qtt_refl = auditLinearQTTConservation
+proof_linear_qtt_refl = Refl
 ```
 
 ---

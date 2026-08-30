@@ -54,6 +54,10 @@ evidence_epoch37_matches = Refl
 public export
 evidence_boxint_conversion : unwrapBox (wildNatToBoxInt (toWildNat 37)) = 37
 evidence_boxint_conversion = Refl
+
+public export
+evidence_epoch37_matches_bool : Bool
+evidence_epoch37_matches_bool = unwrapBox (wildNatToBoxInt (toWildNat 37)) == 37
 ```
 
 ---

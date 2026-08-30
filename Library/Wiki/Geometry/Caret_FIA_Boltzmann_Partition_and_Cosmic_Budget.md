@@ -81,7 +81,7 @@ evidence_caret_helmholtz_minimization = Math.HelmholtzFreeEnergy.auditCaretHelmh
 ||| Compile-time Reflection Witness 117 (Elaborator Macro)
 public export
 witness_caret_boltzmann_partition : Reflect.Auditor.Math.auditCaretBoltzmannPartitionProofExport = True
-witness_caret_boltzmann_partition = auditCaretBoltzmannPartition
+witness_caret_boltzmann_partition = Refl
 ```
 
 ---

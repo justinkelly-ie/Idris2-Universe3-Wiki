@@ -75,7 +75,7 @@ evidence_rational_kepler_laws = Math.ToroidalAstrodynamics.auditRationalKeplerLa
 ||| Compile-time Reflection Witness 120 (Elaborator Macro)
 public export
 witness_rational_kepler_laws : Reflect.Auditor.Math.auditRationalKeplerLawsProofExport = True
-witness_rational_kepler_laws = auditRationalKeplerLaws
+witness_rational_kepler_laws = Refl
 ```
 
 ---
