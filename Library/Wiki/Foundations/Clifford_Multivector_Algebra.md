@@ -84,7 +84,7 @@ evidence_hyperplane_reflection =
 public export
 evidence_dirac_current_conservation : Bool
 evidence_dirac_current_conservation =
-  auditDiracCurrentConservationProof
+  Math.CliffordAlgebra.auditDiracCurrentConservationProof
 
 ------------------------------------------------------------------------
 -- ELABORATOR REFLECTION MACRO WITNESSES

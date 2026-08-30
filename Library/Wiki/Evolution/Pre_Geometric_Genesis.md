@@ -32,6 +32,10 @@ public export
 evidence_void_vm_is_zero : computeVMSize 0 = 0
 evidence_void_vm_is_zero = Refl
 
+public export
+evidence_void_vm_is_zero_bool : Bool
+evidence_void_vm_is_zero_bool = computeVMSize 0 == 0
+
 ||| Evidence 2: Proof that total capacity of the Pre-Geometric Void is 128 (pure Dark Energy)
 public export
 evidence_void_capacity : totalStateCapacity (seedCosmicVacuum 0 7 0) = 128

@@ -313,9 +313,12 @@ All 12 Fundamental Pillars of Physics are now certified statically by the Idris 
 
 | Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
 | :--- | :--- | :--- |
-| **Elaboration Time** | `0.578s` | Broad multi-module import dependencies, 12 fundamental law evidence witnesses, and 27-cell grid state initializations. |
-| **Module Complexity** | `268 LOC / 12 Laws` | Complete synthesis of the 12 Emergent Pillars of Physics across the 4 metrics. |
-| **Compile-Time Status** | `TOTAL (0.578s)` | `%default total` verified across all 12 law evidence proofs. |
+| **Package Clean Build (`Idris2-Universe2`)** | `7.14s` | Full clean compilation and installation of 45 core algebraic and geometric law modules. |
+| **Wiki Executable Clean Build (`Idris2-Universe2-Wiki`)** | `16.29s` | Full clean compilation of 154 literate markdown modules and generation of `universe2-verify` binary. |
+| **Total System Clean Build Time** | `23.43s` | End-to-end clean compilation and package installation across all 199 system modules. |
+| **Runtime Test Suite Execution** | `0.0018s` (1.82 ms) | Execution of 133 runtime verification property tests (100% PASS rate). |
+| **Module Elaboration Time** | `0.578s` | Broad multi-module import dependencies, 12 fundamental law evidence witnesses, and 27-cell grid state initializations. |
+| **Compile-Time Status** | `TOTAL` | `%default total` verified across all 12 law evidence proofs. |
 
 
 

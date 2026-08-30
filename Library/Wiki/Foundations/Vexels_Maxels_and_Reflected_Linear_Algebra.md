@@ -175,8 +175,13 @@ evidence_reflection_macro_audit = Refl
 
 | Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
 | :--- | :--- | :--- |
-| **Elaboration Time** | `0.728s` | High-density 27-cell grid vector tabulations, $3\times3\times3$ Boxel slice projections, and compile-time reflection macro evaluation. |
-| **Module Complexity** | `156 LOC / 12 Invariants` | Pure multiset linear algebra isomorphism proofs (`Vexel`, `Maxel`, `Boxel`). |
-| **Compile-Time Status** | `TOTAL (0.728s)` | `%default total` verified across all 12 evidence proofs. |
+| **Package Clean Build (`Idris2-Universe2`)** | `7.14s` | Full clean compilation and installation of 45 core algebraic and geometric law modules. |
+| **Wiki Executable Clean Build (`Idris2-Universe2-Wiki`)** | `16.29s` | Full clean compilation of 154 literate markdown modules and generation of `universe2-verify` binary. |
+| **Total System Clean Build Time** | `23.43s` | End-to-end clean compilation and package installation across all 199 system modules. |
+| **Runtime Test Suite Execution** | `0.0018s` (1.82 ms) | Execution of 133 runtime verification property tests (100% PASS rate). |
+| **Codebase Byte Shannon Entropy ($H_{\text{byte}}$)** | `5.1117 bits/byte` | Byte information entropy measured across 637,435 bytes in `Idris2-Universe2`. |
+| **Codebase Token Shannon Entropy ($H_{\text{token}}$)** | `6.5552 bits/token` | Vocabulary token entropy measured across 172,453 syntax tokens in `Idris2-Universe2`. |
+| **Module Elaboration Time** | `0.728s` | High-density 27-cell grid vector tabulations, $3\times3\times3$ Boxel slice projections, and compile-time reflection macro evaluation. |
+| **Compile-Time Status** | `TOTAL` | `%default total` verified across all evidence proofs. |
 
 

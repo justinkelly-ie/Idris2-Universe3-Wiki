@@ -28,6 +28,10 @@ evidence_bootstrap_37_epochs = Refl
 public export
 evidence_standard_epoch37_capacity : totalStateCapacity Evolution.Bootstrap.standardEpoch37 = 210
 evidence_standard_epoch37_capacity = Refl
+
+public export
+evidence_standard_epoch37_capacity_bool : Bool
+evidence_standard_epoch37_capacity_bool = totalStateCapacity Evolution.Bootstrap.standardEpoch37 == 210
 ```
 
 ---

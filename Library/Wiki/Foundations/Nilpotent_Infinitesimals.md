@@ -31,6 +31,10 @@ public export
 evidence_epsilon_nilpotence : mulEpsilon Math.Infinitesimal.epsilon Math.Infinitesimal.epsilon = MkMaxel []
 evidence_epsilon_nilpotence = Refl
 
+public export
+evidence_epsilon_nilpotence_bool : Bool
+evidence_epsilon_nilpotence_bool = mulEpsilon Math.Infinitesimal.epsilon Math.Infinitesimal.epsilon == MkMaxel []
+
 ||| Evidence 2: Proof that dual number multiplication (3 + 1ε) * (2 + 0ε) = 6 + 2ε
 public export
 evidence_dual_multiplication : 

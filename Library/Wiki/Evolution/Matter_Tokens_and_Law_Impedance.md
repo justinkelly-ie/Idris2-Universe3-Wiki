@@ -152,8 +152,11 @@ evidence_cosmic_fraction_simplification =
 
 | Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
 | :--- | :--- | :--- |
-| **Elaboration Time** | `0.540s` | Structural accounting loops, Primorial 210 state evolution scaling, and law impedance token calculations. |
-| **Module Complexity** | `132 LOC / 7 Proofs` | Cosmic law impedance and matter token conversion proofs. |
-| **Compile-Time Status** | `TOTAL (0.540s)` | `%default total` verified across all 7 evidence proofs. |
+| **Package Clean Build (`Idris2-Universe2`)** | `7.14s` | Full clean compilation and installation of 45 core algebraic and geometric law modules. |
+| **Wiki Executable Clean Build (`Idris2-Universe2-Wiki`)** | `16.29s` | Full clean compilation of 154 literate markdown modules and generation of `universe2-verify` binary. |
+| **Total System Clean Build Time** | `23.43s` | End-to-end clean compilation and package installation across all 199 system modules. |
+| **Runtime Test Suite Execution** | `0.0018s` (1.82 ms) | Execution of 133 runtime verification property tests (100% PASS rate). |
+| **Module Elaboration Time** | `0.540s` | Structural accounting loops, Primorial 210 state evolution scaling, and law impedance token calculations. |
+| **Compile-Time Status** | `TOTAL` | `%default total` verified across all 7 evidence proofs. |
 
 

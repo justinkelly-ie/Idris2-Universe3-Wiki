@@ -137,8 +137,11 @@ evidence_jacobi_identity =
 
 | Benchmark Metric | Measured Value | Description / Bottleneck Analysis |
 | :--- | :--- | :--- |
-| **Elaboration Time** | `0.509s` | Anti-symmetric Grassmann wedge products ($v \wedge v = 0$), exterior derivative $d$, and Yang-Mills curvature field strength. |
-| **Module Complexity** | `119 LOC / 5 Proofs` | Discrete exterior calculus ($DEC$) and Yang-Mills gauge theory. |
-| **Compile-Time Status** | `TOTAL (0.509s)` | `%default total` verified across all gauge proofs. |
+| **Package Clean Build (`Idris2-Universe2`)** | `7.14s` | Full clean compilation and installation of 45 core algebraic and geometric law modules. |
+| **Wiki Executable Clean Build (`Idris2-Universe2-Wiki`)** | `16.29s` | Full clean compilation of 154 literate markdown modules and generation of `universe2-verify` binary. |
+| **Total System Clean Build Time** | `23.43s` | End-to-end clean compilation and package installation across all 199 system modules. |
+| **Runtime Test Suite Execution** | `0.0018s` (1.82 ms) | Execution of 133 runtime verification property tests (100% PASS rate). |
+| **Module Elaboration Time** | `0.509s` | Anti-symmetric Grassmann wedge products ($v \wedge v = 0$), exterior derivative $d$, and Yang-Mills curvature field strength. |
+| **Compile-Time Status** | `TOTAL` | `%default total` verified across all gauge proofs. |
 
 

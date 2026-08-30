@@ -60,7 +60,7 @@ evidence_linear_qtt_conservation =
 ||| Compile-time Reflection Witness proving Landauer Token Relocation Conservation
 public export
 proof_landauer_token_refl : Reflect.InvariantAuditor.auditLandauerTokenConservationMacroProof = True
-proof_landauer_token_refl = auditLandauerTokenConservation
+proof_landauer_token_refl = Refl
 
 ||| Compile-time Reflection Witness proving Linear QTT State Transition Conservation
 public export
