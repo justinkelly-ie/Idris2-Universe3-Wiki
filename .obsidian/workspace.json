@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "34f4f7c54944d9ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1287b6bb447bfe5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bab6f746869ef8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Wiki/Foundations/Index.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14cfa6d07e348a6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "95fdf7e68578c5c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f73eb32b4a95922",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d0f3d3cf16b38ffb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a0d28522a160f388",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4cebf2fa10ce18bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bad06585f5fb510",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8dd4f730ceaa793",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Library/Wiki/Foundations/Universal_Mapping.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6dd7fb0c33a7416d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Library/Wiki/Foundations/Universal_Mapping.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "503ec2bbca06cabd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8cbdbf99259e18d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "80be3275c8782042",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Library/Wiki/Foundations/Universal_Mapping.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3bab6f746869ef8e",
+  "lastOpenFiles": [
+    "build/ttc/2025081600/Observation/The_Cosmological_Observation_Triad.ttm",
+    "build/ttc/2025081600/Observation/The_Cosmological_Observation_Triad.ttc",
+    "Library/Wiki/Observation/The_Cosmological_Observation_Triad.md",
+    "build/ttc/2025081600/Observation/Empirical_Scientific_Dataset_Registry.ttm",
+    "build/ttc/2025081600/Observation/Empirical_Scientific_Dataset_Registry.ttc",
+    "build/ttc/2025081600/Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.ttm",
+    "build/ttc/2025081600/Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.ttc",
+    "build/ttc/2025081600/Observation",
+    "Library/Wiki/Observation/Empirical_Scientific_Dataset_Registry.md",
+    "Library/Wiki/Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.md",
+    "Library/Wiki/Observation",
+    "build/ttc/2025081600/Geometry/Law44_Discrete_Hawking_Page_Phase_Transition.ttm",
+    "build/ttc/2025081600/Geometry/Law44_Discrete_Hawking_Page_Phase_Transition.ttc",
+    "build/ttc/2025081600/Geometry/Law43_Discrete_Chandrasekhar_Degeneracy_Limit.ttm",
+    "Library/Wiki/Geometry/Law44_Discrete_Hawking_Page_Phase_Transition.md",
+    "Library/Wiki/Geometry/Law43_Discrete_Chandrasekhar_Degeneracy_Limit.md",
+    "Library/Wiki/Geometry/Law42_Discrete_Alfven_MHD_and_Flux_Freezing.md",
+    "Library/Wiki/Geometry/Law41_Discrete_Kerr_Metric_and_Penrose_Process.md",
+    "Library/Wiki/Geometry/Law40_Discrete_Ribosomal_Translation_and_Genetic_Code.md",
+    "Library/Wiki/Geometry/Law39_Discrete_Monod_Wyman_Changeux_Allostery.md",
+    "Library/Wiki/Geometry/Law38_Discrete_Hodgkin_Huxley_Action_Potentials.md",
+    "Library/Wiki/Geometry/Law37_Discrete_Michaelis_Menten_Enzyme_Kinetics.md",
+    "Library/Wiki/Geometry/Law36_Discrete_Kitaev_Toric_Code_and_Error_Correction.md",
+    "Library/Wiki/Geometry/Law35_Discrete_Ryu_Takayanagi_Holographic_Entanglement.md",
+    "Library/Wiki/Geometry/Law34_Discrete_Jaynes_Cummings_and_Vacuum_Rabi_Splitting.md",
+    "Library/Wiki/Geometry/Law33_Discrete_Quantum_Teleportation_and_Entanglement_Swapping.md",
+    "Library/Wiki/Geometry/Law32_Discrete_Topological_Insulators_and_Edge_States.md",
+    "Library/Wiki/Geometry/Law31_Discrete_Belousov_Zhabotinsky_Oscillations.md",
+    "Library/Wiki/Geometry/Law30_Discrete_Lattice_Boltzmann_and_Navier_Stokes.md",
+    "Library/Wiki/Geometry/Law29_Discrete_BCS_Superconductivity.md",
+    "Library/Wiki/Foundations/Universal_Algebra_and_Multiset_Interpretation.md",
+    "Library/Wiki/Evolution/Hierarchical_Matter_Emergence_and_Universal_Pipeline.md",
+    "Library/Wiki/Foundations/High_Level_Review_of_Multiset_Algebra_Synthesis.md",
+    "Library/Wiki/Foundations/Type_Indexed_Multiset_Synthesis.md",
+    "Library/Wiki/Geometry/Quark_to_Hadron_Algebraic_Functor.md",
+    "Library/Wiki/Foundations/Algebraic_Family_Tree_of_Physical_Laws.md"
+  ]
+}

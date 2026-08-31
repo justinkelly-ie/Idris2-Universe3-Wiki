@@ -1,0 +1,28 @@
+package Idris2-Universe3-Wiki
+version = 0.3.0
+executable = universe3-verify
+main = Main
+
+depends = base,
+          Idris2-Multiset0,
+          Idris2-Multiset1,
+          Idris2-Boole2,
+          Idris2-Naray2,
+          Idris2-Geometry3,
+          Idris2-Physics3,
+          Idris2-Hadron3,
+          Idris2-Biochem3,
+          Idris2-Universe3
+
+sourcedir = "Library/Wiki"
+
+modules = Verification.Witnesses.UnifiedWitnesses,
+          Main,
+          Foundations.Discrete_Box_Algebra_and_Contour_Geometry,
+          Foundations.Multiset_Transform_2_Categories_and_Tensor_Operators,
+          Foundations.Scale_Pipelines_Galois_Connections_and_Free_Energy,
+          Geometry.Elliptic_Bound_State_Confinement,
+          Geometry.Hyperbolic_Gauge_Flux_and_Mixing,
+          Geometry.Parabolic_Dissipation_and_Recombination,
+          Geometry.Substrate_Free_Energy_and_Causal_Arrow,
+          Verification.Verification_Matrix

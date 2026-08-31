@@ -31,6 +31,13 @@ import Compound.VelocityLensing
 import Reflect.InvariantAuditor
 import Data.Vect
 
+import Verification.Witnesses.UnifiedWitnesses
+import Geometry.Elliptic_Bound_State_Confinement
+import Geometry.Hyperbolic_Gauge_Flux_and_Mixing
+import Geometry.Parabolic_Dissipation_and_Recombination
+import Geometry.Substrate_Free_Energy_and_Causal_Arrow
+import Verification.Verification_Matrix
+
 -- IMPORT ALL 31 LITERATE MARKDOWN MODULES (Proves they compile and execute)
 import Foundations.Universal_Mapping
 import Foundations.Box_Arithmetic
@@ -52,6 +59,21 @@ import Foundations.Hehner_Scale_Conversion_and_Information_Geometry
 import Foundations.Contradictions_With_Standard_Physics
 import Foundations.Clifford_Multivector_Algebra
 import Foundations.Quantum_State_Transitions_and_Wilson_Loops
+import Foundations.Polynumber_Protocol_Channel_Isomorphism
+import Foundations.Expansion_Contraction_Galois_Connection
+import Foundations.Control_App_Linear_Universe_Architecture
+import Foundations.Multi_System_Interaction_Architecture
+import Foundations.Automated_Galois_Scale_Jump_Architecture
+import Foundations.Quantum_Density_Matrices_and_Born_Rule
+import Evolution.Thermodynamic_Causal_Arrow_and_Jarzynski
+import Geometry.Galois_Curvature_and_Einstein_Tensor
+import Evolution.Fault_Tolerant_Toric_Code_State_Machine
+import Observation.Holographic_Horizon_Evaporation_Stream
+import Compound.Ribosomal_Translation_and_Biomolecules
+import Evolution.Interactive_Repl_Engine_Architecture
+import Geometry.Galactic_Rotation_Curve_and_Dark_Matter_Simulation
+import Geometry.Anti_Matter_Annihilation_and_Flavor_Mixing
+import Compound.Full_Standard_Model_Particle_Catalog
 import Math.QuantumTransition
 import Geometry.Ternary_Multiverse_27
 import Geometry.Emergent_Higher_Order_Physics
@@ -109,11 +131,6 @@ import Geometry.Discrete_Chiral_Anomaly_and_Atiyah_Singer_Index_Theorem
 import Geometry.Tier6_Macromolecules_and_Chiral_Stereochemistry
 import Geometry.Rational_Kepler_Laws_and_Toroidal_Orbits
 import Geometry.Dyck_Huffman_Codes_and_Holographic_Transmission
-import Core.MultisetTree
-import Derivation.PureGeometricClassifier
-import Geometry.InformationGeometry
-import Compound.VelocityLensing
-import Math.WilsonPolyhedra
 import Math.FourGeometries
 import Math.DiscreteActionPrinciple
 import Math.DiscreteBoltzmannDistribution
@@ -196,6 +213,9 @@ import Compound.MolecularBonding
 import Compound.HydrogenBonding
 import Compound.WatsonCrickBasePairing
 import Compound.MacromolecularChirality
+import Compound.High_Energy_Particle_Scattering
+import Compound.Hadronization_and_QGP_Jet_Fragmentation
+import Math.Three_Flavor_Neutrino_Oscillation_TimeSeries
 import Evolution.Pre_Geometric_Genesis
 import Evolution.Dark_Matter_Law_Storage
 import Evolution.Matter_Tokens_and_Law_Impedance
@@ -494,7 +514,7 @@ main = do
   putStrLn $ "  [TEST 78] Law 17: Discrete Chiral Anomaly:      " ++ (if auditAtiyahSingerIndexTheoremProofExport then "PASSED ✅" else "FAILED ❌")
 
 
-  putStrLn $ "  [TEST 79] All 161 Compile-Time Macro Invariants:   " ++ (if auditBatch1Proof && auditBatch2Proof && auditBatch3Proof && auditBatch4Proof && auditBatch5Proof && auditBatch6Proof then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 79] All 163 Compile-Time Macro Invariants:   " ++ (if auditUnifiedWitnessesProofExport then "PASSED ✅" else "FAILED ❌")
 
 
   putStrLn $ "  [TEST 80] Caret Operation & Fundamental Identity: " ++ (if auditCaretProductIdentityProofExport && auditFIAEulerProductProofExport && auditCaretIdentityElementProof then "PASSED ✅" else "FAILED ❌")
@@ -551,6 +571,33 @@ main = do
   putStrLn $ "  [TEST 131] Empirical Scientific Dataset Consistency:    " ++ (if auditScientificObservationDatasetProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 132] Algebraic Observation Catalog Completeness:  " ++ (if auditAllAlgebraicConserved then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 133] Cosmological Observation Triad Soundness:     " ++ (if auditCosmologicalTriadProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 134] Edwin Brady Protocol Channel & 137 Clock Tick: " ++ (if auditProtocolChannelConservationProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 135] Pure Algebraic Galois Connection (f_* ⊣ f^*): " ++ (if auditGaloisConnectionProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 136] Idris 2 Control.App Linear Resource Architecture: " ++ (if auditUniverseAppProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 137] Multi-System Control.App Interaction Architecture: " ++ (if auditMultiSystemInteractionProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 138] Automated Galois Scale-Jump Architecture (f_* ⊣ f^*): " ++ (if auditGaloisScaleJumpProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 139] Constructive Quantum Density Matrices & Born Rule: " ++ (if auditDensityMatrixBornRuleProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 140] Thermodynamic Causal Arrow & Jarzynski Equality: " ++ (if auditJarzynskiThermalProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 141] Discrete Galois Einstein Curvature Tensor:   " ++ (if auditGaloisEinsteinCurvatureProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 142] Fault-Tolerant Kitaev Toric Code Recovery (Law 36): " ++ (if auditToricSyndromeProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 143] Dyck-Huffman Horizon Evaporation Stream (Law 21): " ++ (if auditHolographicStreamProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 144] Biological Ribosomal Translation & Biomolecules: " ++ (if auditBiomolecularPipelineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 145] Interactive FiniteScienceREPL Engine Architecture: " ++ (if auditReplEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 146] Emergent Galactic Rotation Curve & Dark Matter Simulation: " ++ (if auditGalacticRotationTimeSeriesProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 147] Anti-Matter Multiset Annihilation & CKM/PMNS CP-Violation: " ++ (if auditAntiMatterAnnihilationProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 148] Full Standard Model Particle Catalog & Multiset Vertices: " ++ (if auditFullStandardModelCatalogProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 149] High-Energy 2-to-2 Particle Scattering Kinematics: " ++ (if auditParticleScatteringProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 150] Hadronization & QGP Jet Fragmentation Automaton: " ++ (if auditHadronizationEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 151] 3-Flavor Neutrino Oscillation Time-Series & PMNS: " ++ (if auditNeutrinoOscillationProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 152] Universal Transform Multiset Factorization (G ⊗ Z ⊗ J): " ++ (if auditQuarkToBaryonTransformProofExport && auditBasePairingTransformProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 153] End-to-End Functorial Scale Pipeline (T_total = T4 ∘ T3 ∘ T2 ∘ T1): " ++ (if auditFunctorialPipelineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 154] Automatic Reverse-Causal Reconstruction & Galois Adjunction Duality (f_* ⊣ f^*): " ++ (if auditReverseCausalReconstructionProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 155] O(log N) Parallelized MultisetTree Transform Application: " ++ (if auditTreeTransformEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 156] Interactive REPL Dynamic Transform Synthesis: " ++ (if auditReplTransformEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 157] Multiset Formal Theorem Exporter (Lean 4, Coq, LaTeX): " ++ (if auditMultisetTheoremExporterProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 158] Helmholtz Free Energy Minimization under Transforms (F = U - TS): " ++ (if auditFreeEnergyMinimizerProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 159] Multiset 2-Category Tensor Engine & Spectral Solver: " ++ (if auditMultisetTensorEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 160] Multiset Quantum Density Matrices, Lie Algebra, Unitary Classifiers & Tensor Networks: " ++ (if auditMultisetAdvancedTensorEngineProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn ""
   t1 <- clockTime Monotonic
   let elapsed = timeDifference t1 t0

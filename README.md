@@ -3,9 +3,9 @@
 **Literate Documentation, Formal Specifications, and Property Verification Suite for [Idris2-Universe2](https://github.com/justinkelly-ie/Idris2-Universe2).**
 
 [![Idris2](https://img.shields.io/badge/Idris2-Verified_Wiki-blue.svg)](https://github.com/idris-lang/Idris2)
-[![Macro Audits](https://img.shields.io/badge/Elaborator_Macros-158_Verified-brightgreen.svg)]()
-[![Tests](https://img.shields.io/badge/Runtime_Tests-133_Passed-success.svg)]()
-[![Literate Chapters](https://img.shields.io/badge/Literate_Chapters-131_Compiled-purple.svg)]()
+[![Macro Audits](https://img.shields.io/badge/Elaborator_Macros-162_Verified-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Runtime_Tests-135_Passed-success.svg)]()
+[![Literate Chapters](https://img.shields.io/badge/Literate_Chapters-133_Compiled-purple.svg)]()
 
 ---
 
@@ -16,6 +16,8 @@
 All physical invariants, conservation theorems, and geometric classifications are verified at compile time without floating-point approximations or continuous infinities.
 
 ### 🗺️ Quick Reference & Catalogs
+* **[The Edwin Brady Protocol Channel & 137 Clock Tick Isomorphism](Library/Wiki/Foundations/Polynumber_Protocol_Channel_Isomorphism.md)** — Tripartite isomorphism mapping Polynumber Generating Functions, 137-stage natural clock ticks, and Edwin Brady linear QTT protocol channels.
+* **[Pure Algebraic Galois Connection ($f_* \dashv f^*$)](Library/Wiki/Foundations/Expansion_Contraction_Galois_Connection.md)** — Pure algebraic duality between contraction ($f_*$) and expansion ($f^*$) over multiset lattices with unit ($\eta$) and counit ($\epsilon$) bounds.
 * **[The Cosmological Observation Triad](Library/Wiki/Observation/The_Cosmological_Observation_Triad.md)** — 3-way synthesis of Multiset Carriers ($\mathcal{M}$), Algebraic Equational Laws ($\mathcal{A}$), and Empirical Scientific Measurements ($\mathcal{S}$).
 * **[The Dual Observation Architecture](Library/Wiki/Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.md)** — Rigorous separation and bridge between exact internal algebraic theorems and external empirical scientific measurements.
 * **[Empirical Scientific Dataset Registry](Library/Wiki/Observation/Empirical_Scientific_Dataset_Registry.md)** — Verified physical observations (CODATA $\alpha$, Mercury precession, Chandrasekhar limit, flux quantization) within constructivist rational bounds.

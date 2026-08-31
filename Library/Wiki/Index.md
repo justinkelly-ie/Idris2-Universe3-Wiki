@@ -1,165 +1,61 @@
-# 📖 Idris2-Universe2 Literate Knowledge Base
+# 📚 Constructive Multiset Physics: A Complete Textbook Guide
 
-Welcome to the literate documentation and mathematical verification suite for **Idris2-Universe2**.
-Every chapter in this wiki is an **executable Literate Idris 2 module** that proves its cosmological theorems with compiler-checked evidence.
+Welcome to the formal wiki documentation for the **Constructive Multiset Physics Framework** implemented in Idris 2. 
 
----
-
-## 🗺️ Cross-Disciplinary Mapping & Bibliographic Reference
-
-* **[The Universal Rosetta Stone](Foundations/Universal_Rosetta_Stone.md)** — Comprehensive tripartite isomorphism table mapping Constructive Finite Mathematics, Cosmological Physics, and Idris 2 QTT.
-* **[The Algebraic Family Tree of Physical Laws](Foundations/Algebraic_Family_Tree_of_Physical_Laws.md)** — Visual parent/sibling/child dependency graph and Algebra-Driven Design (ADD) observation architecture for Laws 1–44.
-* **[The Emergent Physical Laws & Academic Bibliography](Verification/Physical_Laws_Bibliography_and_Sources.md)** — Verified citations, DOIs, and primary historical sources for the emergent physical laws (Laws 1–44).
-
-* **[Type Signatures & API Catalog](Verification/Type_Signatures_and_API_Catalog.md)** — Dynamically generated, authoritative reference of all records, algebraic data types, and state transitions.
+This framework reformulates physical law from first principles using **constructive discrete mathematics**, replacing continuous manifolds, floating-point numbers, and infinite limits with exact rational multisets, 2-category law transforms, and compile-time reflection proofs.
 
 ---
 
-## 🧭 Sections & Indexes
+## 🗺️ Framework Architecture & Chapter Roadmap
 
-### [1. Foundational Mathematics & Discrete Calculus](Foundations/Index.md)
-* [Universal Mapping & Notation](Foundations/Universal_Mapping.md)
-* [The Universal Rosetta Stone](Foundations/Universal_Rosetta_Stone.md)
-* [The Algebraic Family Tree of Physical Laws](Foundations/Algebraic_Family_Tree_of_Physical_Laws.md)
-* [Type-Indexed Multiset Synthesis](Foundations/Type_Indexed_Multiset_Synthesis.md)
-* [A Plain-Language Guide to the Multiset-Algebra Synthesis](Foundations/High_Level_Review_of_Multiset_Algebra_Synthesis.md)
-* [Universal Algebra & The Multiset Interpretation](Foundations/Universal_Algebra_and_Multiset_Interpretation.md)
-* [Box Arithmetic & Type Theory](Foundations/Box_Arithmetic.md)
-* [Pure Box Integers as Pixel Difference Pairs](Foundations/Pixel_Box_Integers.md)
-* [Nested Polynomial Multisets](Foundations/Nested_Polynomial_Multisets.md)
-* [The Caret Operation & Fundamental Identity of Arithmetic](Foundations/Caret_Operation_and_FIA.md)
-* [Canonical Box Ordering & Contour Walks](Foundations/Canonical_Box_Ordering_and_Contour_Walks.md)
-* [Nilpotent Infinitesimal Calculus](Foundations/Nilpotent_Infinitesimals.md)
-* [Emergent Quantum Mechanics](Foundations/Emergent_Quantum_Mechanics.md)
-* [Quantum Measurement & Superposition](Foundations/Quantum_Measurement_and_Superposition.md)
-* [Structural Accounting & Token Geometry](Foundations/Structural_Accounting_and_Pure_Tokens.md)
-* [Vexels, Maxels, Boxels & Reflected Linear Algebra](Foundations/Vexels_Maxels_and_Reflected_Linear_Algebra.md)
-* [Balance Arrays & Natural Linear Independence](Foundations/Balance_Arrays_and_Linear_Independence.md)
-* [Magic Maxels & Doubly Stochastic Token Redistribution](Foundations/Magic_Maxels_and_Doubly_Stochastic_Redistribution.md)
-* [Box Difference Quadrance & Rational Spread Metrics](Foundations/Box_Difference_Quadrance_and_Spread_Metrics.md)
-* [Fractional Multisets & Ongoing Sequences (OnSeq)](Foundations/Unixel_Fractions_and_OnSeq_Algebra.md)
-* [Reflected Fractional Multisets & QTT Sequences](Foundations/Reflected_Fractional_Multisets_and_QTT_Sequences.md)
-* [Hehner's Scale Conversion & Constructive Information Geometry](Foundations/Hehner_Scale_Conversion_and_Information_Geometry.md)
-* [Multiset-Based Clifford Geometric Algebra](Foundations/Clifford_Multivector_Algebra.md)
-* [Quantum State Transitions & Wilson Plaquettes](Foundations/Quantum_State_Transitions_and_Wilson_Loops.md)
-* [Contradictions With Standard Physics](Foundations/Contradictions_With_Standard_Physics.md)
+The physical universe is modeled across **4 fundamental metric geometries** constrained by the **Primorial $210$ master state budget** ($210 = 27 + 128 + 55$):
 
-### [2. Spacetime & Geometry](Geometry/Index.md)
-* [The Four Fundamental Geometries & Cosmic Synthesis](Geometry/The_Four_Fundamental_Geometries_and_Cosmic_Synthesis.md)
-* [The 27 Ternary Geometries](Geometry/Ternary_Multiverse_27.md)
-* [3D Lattice Topology & Conserved Flux](Geometry/Lattice_Topology_and_Flux.md)
-* [Emergence of the 3-Torus Topology](Geometry/Emergent_Toroidal_Topology.md)
-* [The 12 Emergent Laws of Physics](Geometry/Emergent_Pillars_of_Physics.md)
-* [Geometric-Informational Duality & Cosmic Intelligence](Geometry/Geometric_Information_Duality_and_Cosmic_Intelligence.md)
-* [Intra-Epoch Hadronic Confinement (Epoch 3)](Geometry/Hadronic_Color_Confinement.md)
-* [The Quark-to-Hadron Algebraic Functor](Geometry/Quark_to_Hadron_Algebraic_Functor.md)
-* [Emergent Higher-Order Physics](Geometry/Emergent_Higher_Order_Physics.md)
-* [Archimedes' Function & Quadrea](Geometry/Archimedes_Function_and_Quadrea.md)
-* [Discrete Exterior Calculus & Gauge Fields](Geometry/Discrete_Exterior_Calculus_and_Gauge.md)
-* [2D Maxwell Field Equations](Geometry/Maxwell_Field_Equations.md)
-* [Grassmann Exterior Calculus & Yang-Mills Gauge Theory](Geometry/Grassmann_and_Yang_Mills.md)
-* [Yang-Mills Curvature as Plaquette Cross-Entropy](Geometry/Yang_Mills_Curvature_and_Plaquette_Cross_Entropy.md)
-* [The Discrete Poynting Theorem](Geometry/Discrete_Poynting_Theorem.md)
-* [Rational Snell's Law & The Triple Spread Law](Geometry/Rational_Snell_and_Triple_Spread.md)
-* [The Constructive Dirac Spinor Equation](Geometry/Constructive_Dirac_Spinor.md)
-* [The Discrete Holographic Area Law](Geometry/Discrete_Holographic_Area_Law.md)
-* [Plasma Recombination & Photon Decoupling](Geometry/Plasma_Recombination_and_Decoupling.md)
-* [Stellar Nucleosynthesis & Phosphorus](Geometry/Stellar_Nucleosynthesis_and_Phosphorus.md)
-* [Complete Stellar Fusion & Balance Network](Geometry/Complete_Stellar_Fusion_and_Balance_Network.md)
-* [Molecular Bonding & Chemical Graph Contraction](Geometry/Molecular_Bonding.md)
-* [Hydrogen Bonding & Aqueous Percolation](Geometry/Hydrogen_Bonding_and_Aqueous_Percolation.md)
-* [Watson-Crick Complementarity & Polyphosphates](Geometry/Watson_Crick_Complementarity_and_Polyphosphates.md)
-* [3D Wilson Polyhedra & Non-Abelian Color Flux Coupling](Geometry/Wilson_Polyhedra_and_NonAbelian_Color_Flux.md)
-* [The Discrete Principle of Least Action](Geometry/Discrete_Principle_of_Least_Action.md)
-* [The Discrete Boltzmann Distribution & Sector Partition Functions](Geometry/Discrete_Boltzmann_and_Sector_Partition_Functions.md)
-* [Caret-FIA Boltzmann Partition & Cosmic Budget](Geometry/Caret_FIA_Boltzmann_Partition_and_Cosmic_Budget.md)
-* [The Discrete Casimir Effect & Vacuum Boundary Mode Density](Geometry/Discrete_Casimir_and_Vacuum_Modes.md)
-* [Topological First Chern Number & Quantized Hall Conductance](Geometry/Topological_Chern_Number_and_Hall_Conductance.md)
-* [Topological Aharonov-Bohm Holonomy & 3D Phase Locking](Geometry/Aharonov_Bohm_Holonomy_and_Phase_Locking.md)
-* [The Discrete Landauer Principle & Information Erasure Dissipation](Geometry/Discrete_Landauer_Principle_and_Information_Dissipation.md)
-* [The Discrete Poynting Theorem & Electromagnetic Energy Flux](Geometry/Discrete_Poynting_Theorem_and_Energy_Flow.md)
-* [The Discrete Dirac Spinor Equation & Conserved 4-Current](Geometry/Discrete_Dirac_Spinor_and_Current_Conservation.md)
-* [The Pauli Exclusion Principle & Fermi-Dirac Statistics](Geometry/Pauli_Exclusion_and_Fermi_Dirac_Statistics.md)
-* [Gravitational Wave Dynamics & Metric Shear](Geometry/Gravitational_Wave_Dynamics_and_Metric_Shear.md)
-* [Superconducting Flux Quantization & Josephson Dynamics](Geometry/Superconducting_Flux_Quantization_and_Josephson_Dynamics.md)
-* [Constructive Baryogenesis & Sakharov Conditions](Geometry/Constructive_Baryogenesis_and_Sakharov_Conditions.md)
-* [Multi-Scale Renormalization & Information Geometry](Geometry/Multi_Scale_Renormalization_and_Information_Geometry.md)
-* [Categorical RG Decimator & Scale Invariants](Geometry/Categorical_RG_Decimator_and_Scale_Invariants.md)
-* [Doubly Stochastic RG Decimation & Information Conservation](Geometry/Doubly_Stochastic_RG_Decimation_and_Information_Flow.md)
-* [Cross-Law Gauge-Spinor & Metric Shear Coupling](Geometry/Cross_Law_Gauge_Spinor_and_Metric_Coupling.md)
-* [Shannon-Huffman Optimality & Kolmogorov Program Complexity](Geometry/Shannon_Huffman_Optimality_and_Kolmogorov_Complexity.md)
-* [Dyck-Huffman Codes & Holographic Boundary Transmission](Geometry/Dyck_Huffman_Codes_and_Holographic_Transmission.md)
-* [Discrete Helmholtz Free Energy Minimization at Primorial 210](Geometry/Discrete_Helmholtz_Free_Energy_Minimization.md)
-* [Fast Balanced Multiset Trees & Logarithmic Scaling](Geometry/Fast_Balanced_Multiset_Trees_and_Logarithmic_Scaling.md)
-* [Law 13: Discrete Holographic Bound & Bekenstein-Hawking Entropy](Geometry/Discrete_Holographic_Bound_and_Bekenstein_Hawking_Entropy.md)
-* [Law 14: Fractional Quantum Hall Fluid & Anyonic Braiding](Geometry/Fractional_Quantum_Hall_and_Anyonic_Statistics.md)
-* [Law 15: Discrete Jarzynski Equality & Non-Equilibrium Work](Geometry/Discrete_Jarzynski_Equality_and_Non_Equilibrium_Work_Relations.md)
-* [Law 16: Discrete Wheeler-DeWitt Constraint & Cosmic Wavefunction](Geometry/Discrete_Wheeler_DeWitt_and_Cosmic_Wavefunction.md)
-* [Law 17: Discrete Chiral Anomaly & Atiyah-Singer Index](Geometry/Discrete_Chiral_Anomaly_and_Atiyah_Singer_Index_Theorem.md)
-* [Tier 6 Macromolecules & Chiral Stereochemistry](Geometry/Tier6_Macromolecules_and_Chiral_Stereochemistry.md)
-* [Rational Kepler Laws & Toroidal Celestial Mechanics](Geometry/Rational_Kepler_Laws_and_Toroidal_Orbits.md)
-* [Constructive Wasserstein Metric & Optimal Transport](Geometry/Constructive_Wasserstein_and_Optimal_Transport.md)
-* [Discrete Quantum Relative Entropy & Amari Geometry](Geometry/Discrete_Quantum_Relative_Entropy_and_Amari_Geometry.md)
-* [Law 18: Discrete Cosmic Genesis & Relic Freeze-Out](Geometry/Law18_Discrete_Cosmic_Genesis_and_Relic_Freeze_Out.md)
-* [Law 19: Discrete Hawking-Unruh Radiation](Geometry/Law19_Discrete_Hawking_Unruh_Radiation.md)
-* [Law 20: Discrete Hall Viscosity & Topological Transport](Geometry/Law20_Discrete_Hall_Viscosity_and_Topological_Transport.md)
-* [Law 21: Discrete Page Curve & Unitary Evaporation](Geometry/Law21_Discrete_Page_Curve_and_Unitary_Evaporation.md)
-* [Law 22: Discrete Onsager Reciprocity & Microscopic Reversibility](Geometry/Law22_Discrete_Onsager_Reciprocity_and_Microscopic_Reversibility.md)
-* [Law 23: Discrete Chern-Simons Topological Mass](Geometry/Law23_Discrete_Chern_Simons_Topological_Mass.md)
-* [Law 24: Discrete TOV Gravitational Mass Limit](Geometry/Law24_Discrete_TOV_Gravitational_Mass_Limit.md)
-* [Law 25: Discrete Crooks Fluctuation Theorem](Geometry/Law25_Discrete_Crooks_Fluctuation_Theorem.md)
-* [Law 26: Discrete Casimir-Polder Dispersion Forces](Geometry/Law26_Discrete_Casimir_Polder_Dispersion_Forces.md)
-* [Law 27: Discrete Bohmian Quantum Potential](Geometry/Law27_Discrete_Bohmian_Quantum_Potential.md)
-* [Law 28: Discrete Landauer-Büttiker Quantum Conduction](Geometry/Law28_Discrete_Landauer_Buettiker_Quantum_Conduction.md)
-* [Law 29: Discrete BCS Superconductivity & Energy Gap](Geometry/Law29_Discrete_BCS_Superconductivity.md)
-* [Law 30: Discrete Lattice Boltzmann & Navier-Stokes Transport](Geometry/Law30_Discrete_Lattice_Boltzmann_and_Navier_Stokes.md)
-* [Law 31: Discrete Belousov-Zhabotinsky Chemical Oscillations](Geometry/Law31_Discrete_Belousov_Zhabotinsky_Oscillations.md)
-* [Law 32: Discrete Topological Insulators & Bulk-Boundary Correspondence](Geometry/Law32_Discrete_Topological_Insulators_and_Edge_States.md)
-* [Law 33: Discrete Quantum Teleportation & Entanglement Swapping](Geometry/Law33_Discrete_Quantum_Teleportation_and_Entanglement_Swapping.md)
-* [Law 34: Discrete Jaynes-Cummings Cavity QED & Vacuum Rabi Splitting](Geometry/Law34_Discrete_Jaynes_Cummings_and_Vacuum_Rabi_Splitting.md)
-* [Law 35: Discrete Ryu-Takayanagi Holographic Entanglement Formula](Geometry/Law35_Discrete_Ryu_Takayanagi_Holographic_Entanglement.md)
-* [Law 36: Discrete Kitaev Toric Code & Topological Error Correction](Geometry/Law36_Discrete_Kitaev_Toric_Code_and_Error_Correction.md)
+```mermaid
+graph TD
+    subgraph "Part I: Mathematical Foundations"
+        F1["01: Box Algebra & Dyck Contour Geometry"]
+        F2["02: Transform 2-Categories & Quantum Tensors"]
+        F3["03: Scale Pipelines & Free Energy Minimization"]
+    end
 
-* [Law 37: Discrete Michaelis-Menten Enzyme Kinetics](Geometry/Law37_Discrete_Michaelis_Menten_Enzyme_Kinetics.md)
-* [Law 38: Discrete Hodgkin-Huxley Action Potentials](Geometry/Law38_Discrete_Hodgkin_Huxley_Action_Potentials.md)
-* [Law 39: Discrete Monod-Wyman-Changeux Allostery](Geometry/Law39_Discrete_Monod_Wyman_Changeux_Allostery.md)
-* [Law 40: Discrete Ribosomal Translation & Genetic Code Optimality](Geometry/Law40_Discrete_Ribosomal_Translation_and_Genetic_Code.md)
-* [Law 41: Discrete Kerr Spacetime, Ergosphere & Penrose Process](Geometry/Law41_Discrete_Kerr_Metric_and_Penrose_Process.md)
-* [Law 42: Discrete Alfvén Magnetohydrodynamics & Magnetic Flux Freezing](Geometry/Law42_Discrete_Alfven_MHD_and_Flux_Freezing.md)
-* [Law 43: Discrete Chandrasekhar Electron Degeneracy Mass Limit](Geometry/Law43_Discrete_Chandrasekhar_Degeneracy_Limit.md)
-* [Law 44: Discrete Hawking-Page Gravitational Phase Transition](Geometry/Law44_Discrete_Hawking_Page_Phase_Transition.md)
+    subgraph "Part II: The 4 Fundamental Geometries"
+        G1["🌐 Elliptic Sector (det g = +1, 27 VM): Bound-State Confinement"]
+        G2["⚡ Hyperbolic Sector (det g = -1, 128 DE): Gauge Flux & Mixing"]
+        G3["💧 Parabolic Sector (det g = 0, 55 DM): Dissipation & Drains"]
+        G4["🌌 Substrate Sector (g12 = 1, 210 Budget): Causal Arrow & Free Energy"]
+    end
 
-### [3. Evolutionary Dynamics & Law Encoding](Evolution/Index.md)
-* [Pre-Geometric Genesis (The vm = 0 Void)](Evolution/Pre_Geometric_Genesis.md)
-* [Dark Matter as the Cosmic Law Ledger](Evolution/Dark_Matter_Law_Storage.md)
-* [Visible Matter Tokens vs. Dark Matter Law Impedance](Evolution/Matter_Tokens_and_Law_Impedance.md)
-* [Landauer's Principle as Linear Token Relocation](Evolution/Landauer_Principle_and_Linear_Token_Relocation.md)
-* [End-to-End Linear QTT Universe Pipeline](Evolution/End_to_End_Linear_QTT_Pipeline.md)
-* [Cyclotomic Encoding & Decoding Protocol](Evolution/Cyclotomic_Encoding_and_Decoding.md)
-* [Dynamic Grid Expansion (`expandAndUnfoldGeneric`)](Evolution/Dynamic_Grid_Expansion.md)
-* [Renormalization Group & Multi-Scale Information Invariance](Evolution/Renormalization_Group_and_Scale_Invariance.md)
-* [Bootstrapping Epoch 1 to 37](Evolution/Bootstrap_Epoch_1_to_37.md)
-* [137-Stage Cycles & Lattice Expansion](Evolution/Cycle_137_and_Expansion.md)
-* [Hierarchical Matter Replication & The Alpha Cluster (Epoch 4)](Evolution/Alpha_Cluster_Replication.md)
-* [Hierarchical Matter Emergence & Universal Pipeline](Evolution/Hierarchical_Matter_Emergence_and_Universal_Pipeline.md)
-* [Relational Metric Inference](Evolution/Non_Hardcoded_Cosmic_State.md)
+    subgraph "Part III: Formal Verification"
+        V1["📊 Verification Matrix & 163 Macro Reflection Invariants"]
+    end
 
-### [4. Kinematics & Astrodynamics](Kinematics/Index.md)
-* [Causal Posets & Inductive Lensing](Kinematics/Causal_Posets_and_Lensing.md)
-* [Discrete Noether's Theorem & Symplectic Invariants](Kinematics/Discrete_Noether_Symplectic.md)
-* [Discrete Symplectic Leapfrog Integrator](Kinematics/Symplectic_Leapfrog_Integrator.md)
-* [3D Toroidal Astrodynamics & N-Body Symplectic Simulation](Kinematics/Toroidal_Astrodynamics_and_NBody_Symplectic_Simulation.md)
-* [Emergent Galactic Rotation Curves & Dark Matter Law Ledger](Kinematics/Emergent_Galactic_Rotation_and_Dark_Matter_Drag.md)
+    F1 --> F2 --> F3
+    F3 --> G1 & G2 & G3 & G4
+    G1 & G2 & G3 & G4 --> V1
+```
 
-### [5. Metatheory & Verification](Verification/Index.md)
-* [Verification Matrix](Verification/Verification_Matrix.md)
-* [Physical Laws & Academic Bibliography](Verification/Physical_Laws_Bibliography_and_Sources.md)
-* [Type Signatures & API Catalog](Verification/Type_Signatures_and_API_Catalog.md)
-* [Structural Associativity Proof](Verification/Structural_Associativity_Proof.md)
-* [Cosmological Inferences, Quantum Deductions & Elaborator Verification](Verification/Cosmological_Inferences_and_Deductions.md)
+---
 
-### 6. Observation & Empirical Dataset Registry
-* [Scientific & Algebraic Observation Dual Architecture](Observation/Scientific_and_Algebraic_Observation_Dual_Architecture.md)
-* [Empirical Scientific Dataset Registry](Observation/Empirical_Scientific_Dataset_Registry.md)
-* [The Cosmological Observation Triad](Observation/The_Cosmological_Observation_Triad.md)
+## 📘 Table of Contents
 
+### Part I: Mathematical Foundations
+1. [Chapter 1: Discrete Box Algebra & Contour Geometry](Foundations/Discrete_Box_Algebra_and_Contour_Geometry.md)
+   - Wildberger's Box Arithmetic, signed `BoxInt` particle counts, canonical Dyck lattice walks, and exact rational spread metrics ($S = Q / L^2$).
+2. [Chapter 2: Multiset Transform 2-Categories & Quantum Tensors](Foundations/Multiset_Transform_2_Categories_and_Tensor_Operators.md)
+   - 2-category multiset law transforms ($T: a \to b$), Lie bracket commutators $[T_1, T_2]$, quantum density matrices $\rho$, trace preservation $\text{Tr}(\rho) = 1$, and hyper-tensor networks.
+3. [Chapter 3: Scale Pipelines, Galois Connections & Free Energy Minimization](Foundations/Scale_Pipelines_Galois_Connections_and_Free_Energy.md)
+   - Algebraic pushforward aggregation $f_*$, reverse-causal pullback reconstruction $f^*$, Galois adjunctions ($f_* \dashv f^*$), $O(\log N)$ MultisetTree engines, and Helmholtz Free Energy minimization ($F = U - TS \to -1320$).
+
+### Part II: The 4 Fundamental Metric Geometries
+4. [Elliptic Metric Domain: Bound State Confinement](Geometry/Elliptic_Bound_State_Confinement.md)
+   - Metric determinant $\det g = +1$, positive action ($Q > 0$), 27 Vexel-Maxels (VM), hadronic binding, and color confinement.
+5. [Hyperbolic Metric Domain: Gauge Flux and Mixing](Geometry/Hyperbolic_Gauge_Flux_and_Mixing.md)
+   - Metric determinant $\det g = -1$, lightcone phase ($Q = 0$), 128 Dyck-Epsilons (DE), electroweak gauge flux, CKM/PMNS flavor mixing, and Stern-Brocot prefix codes.
+6. [Parabolic Metric Domain: Dissipation & Recombination](Geometry/Parabolic_Dissipation_and_Recombination.md)
+   - Metric determinant $\det g = 0$, null momentum ($p_{\text{null}} = (0,0)$), 55 Dyck-Maxels (DM), thermal dissipation, and plasma recombination drains.
+7. [Substrate Metric Domain: Free Energy & Causal Arrow](Geometry/Substrate_Free_Energy_and_Causal_Arrow.md)
+   - Master metric $g_{22} = 0, g_{12} = 1$, Primorial $210$ budget, asymmetric time evolution ($\Delta S \neq 0$), and unique ground state energy minimum ($F = -1320$).
+
+### Part III: Formal Verification
+8. [Verification Matrix & Invariant Auditor](Verification/Verification_Matrix.md)
+   - Comprehensive audit matrix verifying all **163 compile-time macro reflection proofs** with zero runtime overhead.
