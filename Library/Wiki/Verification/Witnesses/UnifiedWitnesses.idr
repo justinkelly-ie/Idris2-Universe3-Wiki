@@ -179,4 +179,13 @@ auditUnifiedWitnessesProofExport =
   auditMultisetTheoremExporterProofExport &&
   auditFreeEnergyMinimizerProofExport &&
   auditMultisetTensorEngineProofExport &&
-  auditMultisetAdvancedTensorEngineProofExport
+  auditMultisetAdvancedTensorEngineProofExport &&
+  auditParallelPushforwardProofExport &&
+  auditHiggsVacuumStabilityProofExport &&
+  auditDiscreteFeynmanLoopProofExport &&
+  auditSpinNetworkVolumeProofExport &&
+  auditCosmicInflationProofExport &&
+  auditQuantumStressTensorProofExport &&
+  auditActiveInferenceNeuralNetworkProofExport
+
+

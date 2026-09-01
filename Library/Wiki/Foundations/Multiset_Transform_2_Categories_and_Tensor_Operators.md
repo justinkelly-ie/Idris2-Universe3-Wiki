@@ -1,31 +1,37 @@
-# 🌀 Chapter 2: Multiset Transform 2-Categories & Tensor Operators
+# 🌀 Chapter 2: Multiset Maxel Algebra & Tensor Operators
 
-Physical laws in continuous field theory are written as differential operators ($\partial_\mu$) acting on continuous fields ($\psi(x)$). In this framework, physical dynamics are represented categorically as **Multiset Law Transforms** operating within a **2-Category Structure**.
+Physical laws in continuous field theory are written as differential operators ($\partial_\mu$) acting on continuous fields ($\psi(x)$). In this framework, physical dynamics are represented constructivally using **Norman Wildberger's Maxel Algebra** (*Maxel Transforms, Pixel Fusion, and Vexel State Densities*).
 
 ---
 
-## 1. The Multiset 2-Category Framework
+## 1. The Multiset Maxel Algebra Framework
 
-The discrete state evolution space forms a 2-Category $\mathcal{M}$:
+Physical state evolution is driven by **MaxelTransforms** ($T: a \to b$):
 
-1. **0-Cells (Objects)**: Discrete state space types ($a, b, c$).
-2. **1-Cells (Morphisms)**: `TransformMultiset a b` mapping multiset state configurations in type $a$ to multiset state configurations in type $b$.
-3. **2-Cells (Transform Transformations)**: Scale jumps and natural transformations $\alpha: T_1 \implies T_2$ linking physical law transforms across metric domains.
+1. **Vexels (State Densities)**: Multisets of 1D basis keys $a, b, c$ representing localized state distributions.
+2. **MaxelTransforms**: `MaxelTransform a b` storing weighted 2D pixel coordinate pairs $[((a_i, b_i), w_i)]$ that map input Vexel densities to output Vexel densities.
+3. **Pixel Fusion ($T_1 \circ T_2$)**: Direct object-level composition multiplying matching pixel coordinates: $[a, b] \times [b, c] \to [a, c]$.
 
-A **TransformMultiset** is defined as:
+A **MaxelTransform** is defined as:
 
 \[
-T = \text{mkTransformBox}(\text{Sector}, \text{Scale}, [((a_i, b_i), v_i)])
+T = \text{mkMaxelTransform}(\text{Sector}, \text{Scale}, [((a_i, b_i), v_i)])
 \]
 
-where each mapping tuple $((a_i, b_i), v_i)$ specifies that an input density $v_i$ at key $a_i$ pushes forward to output key $b_i$.
+where each coordinate tuple $((a_i, b_i), v_i)$ specifies that an input density $v_i$ at key $a_i$ pushes forward to output key $b_i$.
+
+### Category Theory Mapping Reference
+For readers accustomed to Category Theory, this algebraic framework maps as follows:
+- **0-Cells (Objects)** $\equiv$ State types ($a, b, c$).
+- **1-Cells (Morphisms)** $\equiv$ `MaxelTransform a b`.
+- **Composition ($\circ$)** $\equiv$ Pixel fusion multiset matrix composition $(T_1 \circ T_2)(x, z) = \sum_y T_1(x, y) \cdot T_2(y, z)$.
 
 ---
 
-## 2. Quantum Density Matrices & Lie Bracket Commutators
+## 2. Quantum Density Tables & Maxel Commutators
 
-### Quantum Density Matrix Representation
-Quantum states are represented as positive semi-definite multiset operators $\rho$ acting on discrete basis states, with exact trace normalization:
+### Quantum Density Table Representation
+Quantum states are represented as positive semi-definite multiset operators $\rho$ acting on discrete basis states, with exact diagonal trace normalization:
 
 \[
 \text{Tr}(\rho) = \sum_i \rho_{ii} = 1
@@ -33,8 +39,8 @@ Quantum states are represented as positive semi-definite multiset operators $\rh
 
 Partial trace operations $\rho_A = \text{Tr}_B(\rho_{AB})$ contract environmental degrees of freedom in composite quantum systems without requiring continuous Hilbert space integrals.
 
-### Lie Bracket Commutators
-For any two multiset law transforms $T_1, T_2: a \to a$, the **Lie Bracket Commutator** $[T_1, T_2]$ measures operator non-commutativity using exact multiset subtraction `subBox`:
+### Maxel Commutators
+For any two maxel transforms $T_1, T_2: a \to a$, the **Maxel Commutator** $[T_1, T_2]$ measures operator non-commutativity using exact multiset subtraction `subBox`:
 
 \[
 [T_1, T_2] = (T_1 \circ T_2) \ominus (T_2 \circ T_1)

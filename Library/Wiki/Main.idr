@@ -598,11 +598,19 @@ main = do
   putStrLn $ "  [TEST 158] Helmholtz Free Energy Minimization under Transforms (F = U - TS): " ++ (if auditFreeEnergyMinimizerProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 159] Multiset 2-Category Tensor Engine & Spectral Solver: " ++ (if auditMultisetTensorEngineProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 160] Multiset Quantum Density Matrices, Lie Algebra, Unitary Classifiers & Tensor Networks: " ++ (if auditMultisetAdvancedTensorEngineProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 161] Discrete Higgs Mechanism Potential & Symmetry Breaking (V(φ), m_W, m_H): " ++ (if auditHiggsVacuumStabilityProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 162] 1-Loop Discrete Vacuum Polarization & Running Fine Structure Coupling α(q^2): " ++ (if auditDiscreteFeynmanLoopProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 163] Dynamic Spacetime Spin Networks & Geometric Rewiring: " ++ (if auditSpinNetworkVolumeProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 164] Cosmic Inflation & Primordial Perturbation Power Spectrum (n_s): " ++ (if auditCosmicInflationProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 165] Quantum Stress-Energy Tensor in Curved Spacetime <T_μν>: " ++ (if auditQuantumStressTensorProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 166] Active Inference Neural Networks & Free Energy Minimization: " ++ (if auditActiveInferenceNeuralNetworkProofExport then "PASSED ✅" else "FAILED ❌")
+
   putStrLn ""
   t1 <- clockTime Monotonic
   let elapsed = timeDifference t1 t0
   putStrLn "All Cosmological Proof Witnesses & Literate Invariants Verified!"
   putStrLn $ "  ⚡ Total Runtime Evidence Benchmark: " ++ show elapsed
+
   putStrLn "========================================================"
 
 

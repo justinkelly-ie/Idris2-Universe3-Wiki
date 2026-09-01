@@ -6,9 +6,15 @@ In this framework, physical state space is constructed entirely from **discrete 
 
 ---
 
-## 1. Mathematical Foundations of Box Arithmetic
+## 1. Mathematical Foundations of Norman Wildberger's Box Arithmetic
 
-A **Box** of type $a$ (denoted `Box a`) is a finite multiset represented as a balanced binary tree of key-value pairs $[(k_i, v_i)]$, where $k_i$ represents a discrete key/state and $v_i \in \mathbb{Z}$ represents the integer count or density at that key.
+Physical state space is constructed constructivally using **Norman Wildberger's Finitist Box Arithmetic** (*Math Foundations* 02/03). Rather than assuming continuous real numbers ($\mathbb{R}$) or wave-function continuum limits, natural numbers and physical quantities are derived from nested multisets of empty boxes:
+
+\[
+\text{[]}=0, \quad \text{[[]]}=1, \quad \text{[[] []]}=2, \quad \text{[[] [] []]}=3, \dots
+\]
+
+A **Box** of type $a$ (denoted `Box a`) is a finite multiset represented as a balanced tree of key-density pairs $[(k_i, v_i)]$, where $k_i$ represents a discrete key/state and $v_i \in \mathbb{Z}$ represents the integer count or density at that key.
 
 Signed integer quantities (such as particle charges, quadrances, or metric entries) are wrapped in `BoxInt` structures:
 
@@ -30,12 +36,18 @@ f_1 \sim f_2 \iff p_1 \cdot q_2 = p_2 \cdot q_1
 
 ---
 
-## 2. Canonical Dyck Contour Walks & Spread Metrics
+## 2. Canonical Dyck Contour Walks & Narayana Combinatorics
 
-Every discrete multiset configuration maps bijectively to a **canonical non-negative Dyck contour walk** on a $2D$ integer lattice.
+Every discrete multiset tree configuration (`BoxSpec`) maps bijectively to a **canonical non-negative Dyck contour walk** on a $2D$ integer lattice (Wildberger *MathFoundations 105* / Catalan $C_n = \frac{1}{n+1}\binom{2n}{n}$):
 
-- **Up-steps** ($+1$) correspond to key insertions and density accumulation.
-- **Down-steps** ($-1$) correspond to density removal or scale jumps.
+- **Up-steps** (`True` / $+1$) correspond to open brackets $[$ and descent into a sub-box (key insertion and density accumulation).
+- **Down-steps** (`False` / $-1$) correspond to close brackets $]$ and ascent out of a sub-box (density removal or scale jump).
+- **Narayana Refinement**: The Narayana numbers $N(n, k) = \frac{1}{n} \binom{n}{k} \binom{n}{k-1}$ index Dyck paths by peak count $k$, structuring the 4 metric sectors:
+  - **Elliptic** ($\det g = +1$, 27 Bound-State VM)
+  - **Hyperbolic** ($\det g = -1$, 128 Gauge-Flux DE)
+  - **Parabolic** ($\det g = 0$, 55 Dissipation DM)
+  - **Substrate** ($g_{22} = 0, g_{12} = 1$, Primorial 210 Ground State)
+- **Holographic Boundary Transmission**: Dyck paths act as prefix-free boundary bitstreams for Law 13 (Holographic Bound) and Law 21 (Unitary Hawking Radiation Evaporation).
 - **Spread Metric** ($S$): Distance and geometric separation are computed strictly using rational quadrance $Q = \Delta x^2 + \Delta y^2$ and spread $S = Q / L^2$, avoiding trigonometric approximations.
 
 ---
