@@ -604,6 +604,8 @@ main = do
   putStrLn $ "  [TEST 164] Cosmic Inflation & Primordial Perturbation Power Spectrum (n_s): " ++ (if auditCosmicInflationProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 165] Quantum Stress-Energy Tensor in Curved Spacetime <T_μν>: " ++ (if auditQuantumStressTensorProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 166] Active Inference Neural Networks & Free Energy Minimization: " ++ (if auditActiveInferenceNeuralNetworkProofExport then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 167] Electron Spatial Knot & Proton-to-Electron Mass Ratio (1836.15): " ++ (if auditElectronKnotMassRatioProofExport then "PASSED ✅" else "FAILED ❌")
+
 
   putStrLn ""
   t1 <- clockTime Monotonic

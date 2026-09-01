@@ -186,6 +186,8 @@ auditUnifiedWitnessesProofExport =
   auditSpinNetworkVolumeProofExport &&
   auditCosmicInflationProofExport &&
   auditQuantumStressTensorProofExport &&
-  auditActiveInferenceNeuralNetworkProofExport
+  auditActiveInferenceNeuralNetworkProofExport &&
+  auditElectronKnotMassRatioProofExport
+
 
 
