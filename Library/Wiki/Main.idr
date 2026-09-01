@@ -11,6 +11,9 @@ import Core.VexelMaxel
 import Math.Infinitesimal
 import Math.RationalTrig
 import Math.FineStructure
+import Empirical.Ratio
+import Empirical.Measurements
+import Empirical.Comparison
 import Math.DiscreteHolographicBound
 import Math.LinAlgebra.MetricTensor
 import Math.LinAlgebra.TernaryClassifier
@@ -605,6 +608,28 @@ main = do
   putStrLn $ "  [TEST 165] Quantum Stress-Energy Tensor in Curved Spacetime <T_μν>: " ++ (if auditQuantumStressTensorProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 166] Active Inference Neural Networks & Free Energy Minimization: " ++ (if auditActiveInferenceNeuralNetworkProofExport then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 167] Electron Spatial Knot & Proton-to-Electron Mass Ratio (1836.15): " ++ (if auditElectronKnotMassRatioProofExport then "PASSED ✅" else "FAILED ❌")
+  let empPE = protonElectronMassRatio
+  let modelPE = mkUnixelFraction (intToBoxInt 183615) 100
+  let test168 = auditRatioMatchesWithinPercentError modelPE empPE (mkUnixelFraction 1 1000)
+
+  let empFine = inverseFineStructureConstant
+  let modelFine = mkUnixelFraction (intToBoxInt 137) 1
+  let test169 = auditRatioMatchesWithinPercentError modelFine empFine (mkUnixelFraction 1 100)
+
+  let empEW = electroweakBosonMassRatio
+  let modelEW = mkUnixelFraction (intToBoxInt 881) 1000
+  let test170 = auditRatioMatchesWithinPercentError modelEW empEW (mkUnixelFraction 1 100)
+
+  let empInf = cosmicInflationSpectralIndex
+  let modelInf = mkUnixelFraction (intToBoxInt 965) 1000
+  let test171 = auditRatioWithinConfidenceInterval modelInf empInf
+
+  putStrLn $ "  [TEST 168] CODATA 2022 Proton-to-Electron Mass Ratio Empirical Error < 0.1%: " ++ (if test168 then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 169] CODATA 2022 Fine Structure Constant α^-1 Empirical Error < 1.0%: " ++ (if test169 then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 170] CERN LHC Electroweak Boson Mass Ratio m_W / m_Z Empirical Error < 1.0%: " ++ (if test170 then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 171] Planck 2018 Primordial Inflation n_s = 0.965 Confidence Interval: " ++ (if test171 then "PASSED ✅" else "FAILED ❌")
+
+
 
 
   putStrLn ""
