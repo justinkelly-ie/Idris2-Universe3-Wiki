@@ -1,6 +1,6 @@
 # 📋 Type Signatures & API Catalog
 
-This document provides an **automatically generated, authoritative reference** for all data types, records, type aliases, and primary state transitions in `Idris2-Universe2`.
+This document provides an **automatically generated, authoritative reference** for all data types, records, type aliases, and primary state transitions in `Idris2-Universe`.
 
 > [!NOTE]
 > This catalog is generated dynamically from the codebase source files via `Scripts/generate_type_catalog.py`.
@@ -43,58 +43,58 @@ This document provides an **automatically generated, authoritative reference** f
   - [`Evolution.ToricSyndrome`](#mod-evolution-toricsyndrome)
   - [`Evolution.UniverseApp`](#mod-evolution-universeapp)
 - [**4. Emergent Physical Laws & Gauge Theories**](#section-4)
-  - [`Math.AharonovBohmHolonomy`](#mod-math-aharonovbohmholonomy)
+  - [`Math.HolonomyPhase`](#mod-math-aharonovbohmholonomy)
   - [`Math.CliffordAlgebra`](#mod-math-cliffordalgebra)
   - [`Math.ConstructiveBaryogenesis`](#mod-math-constructivebaryogenesis)
   - [`Math.DensityMatrix`](#mod-math-densitymatrix)
-  - [`Math.DiscreteActionPrinciple`](#mod-math-discreteactionprinciple)
-  - [`Math.DiscreteAlfvénMHD`](#mod-math-discretealfvénmhd)
-  - [`Math.DiscreteBCSSuperconductivity`](#mod-math-discretebcssuperconductivity)
-  - [`Math.DiscreteBelousovZhabotinsky`](#mod-math-discretebelousovzhabotinsky)
-  - [`Math.DiscreteBohmianPotential`](#mod-math-discretebohmianpotential)
-  - [`Math.DiscreteBoltzmannDistribution`](#mod-math-discreteboltzmanndistribution)
-  - [`Math.DiscreteCasimirEffect`](#mod-math-discretecasimireffect)
-  - [`Math.DiscreteCasimirPolder`](#mod-math-discretecasimirpolder)
-  - [`Math.DiscreteChandrasekharLimit`](#mod-math-discretechandrasekharlimit)
-  - [`Math.DiscreteChernSimonsMass`](#mod-math-discretechernsimonsmass)
-  - [`Math.DiscreteChiralAnomaly`](#mod-math-discretechiralanomaly)
-  - [`Math.DiscreteCosmicGenesis`](#mod-math-discretecosmicgenesis)
-  - [`Math.DiscreteCrooksTheorem`](#mod-math-discretecrookstheorem)
-  - [`Math.DiscreteDiracSpinor`](#mod-math-discretediracspinor)
-  - [`Math.DiscreteFlavorMixing`](#mod-math-discreteflavormixing)
-  - [`Math.DiscreteHallViscosity`](#mod-math-discretehallviscosity)
-  - [`Math.DiscreteHawkingPageTransition`](#mod-math-discretehawkingpagetransition)
-  - [`Math.DiscreteHawkingRadiation`](#mod-math-discretehawkingradiation)
-  - [`Math.DiscreteHodgkinHuxley`](#mod-math-discretehodgkinhuxley)
-  - [`Math.DiscreteHolographicBound`](#mod-math-discreteholographicbound)
-  - [`Math.DiscreteHydrogenBonding`](#mod-math-discretehydrogenbonding)
-  - [`Math.DiscreteIron56PeakBinding`](#mod-math-discreteiron56peakbinding)
-  - [`Math.DiscreteJarlskogInvariant`](#mod-math-discretejarlskoginvariant)
-  - [`Math.DiscreteJarzynskiEquality`](#mod-math-discretejarzynskiequality)
-  - [`Math.DiscreteJaynesCummings`](#mod-math-discretejaynescummings)
-  - [`Math.DiscreteKerrSpacetime`](#mod-math-discretekerrspacetime)
-  - [`Math.DiscreteLandauerBuettiker`](#mod-math-discretelandauerbuettiker)
-  - [`Math.DiscreteLandauerPrinciple`](#mod-math-discretelandauerprinciple)
-  - [`Math.DiscreteLatticeBoltzmann`](#mod-math-discretelatticeboltzmann)
-  - [`Math.DiscreteMacromolecularChirality`](#mod-math-discretemacromolecularchirality)
-  - [`Math.DiscreteMichaelisMenten`](#mod-math-discretemichaelismenten)
-  - [`Math.DiscreteMonodWymanChangeux`](#mod-math-discretemonodwymanchangeux)
-  - [`Math.DiscreteOnsagerReciprocity`](#mod-math-discreteonsagerreciprocity)
-  - [`Math.DiscretePageCurve`](#mod-math-discretepagecurve)
-  - [`Math.DiscretePlasmaRecombination`](#mod-math-discreteplasmarecombination)
-  - [`Math.DiscretePoyntingTheorem`](#mod-math-discretepoyntingtheorem)
-  - [`Math.DiscreteQCDStringTension`](#mod-math-discreteqcdstringtension)
-  - [`Math.DiscreteQuantumTeleportation`](#mod-math-discretequantumteleportation)
-  - [`Math.DiscreteRationalKepler`](#mod-math-discreterationalkepler)
-  - [`Math.DiscreteRationalSnell`](#mod-math-discreterationalsnell)
-  - [`Math.DiscreteRibosomalTranslation`](#mod-math-discreteribosomaltranslation)
-  - [`Math.DiscreteRyuTakayanagi`](#mod-math-discreteryutakayanagi)
-  - [`Math.DiscreteTOVLimit`](#mod-math-discretetovlimit)
-  - [`Math.DiscreteTopologicalInsulator`](#mod-math-discretetopologicalinsulator)
-  - [`Math.DiscreteToricCode`](#mod-math-discretetoriccode)
-  - [`Math.DiscreteTripleAlphaNucleosynthesis`](#mod-math-discretetriplealphanucleosynthesis)
-  - [`Math.DiscreteWatsonCrick`](#mod-math-discretewatsoncrick)
-  - [`Math.DiscreteWheelerDeWitt`](#mod-math-discretewheelerdewitt)
+  - [`Math.ActionPrinciple`](#mod-math-discreteactionprinciple)
+  - [`Math.Magnetohydrodynamics`](#mod-math-discretealfvénmhd)
+  - [`Math.SuperconductingGap`](#mod-math-discretebcssuperconductivity)
+  - [`Math.OscillatingReactions`](#mod-math-discretebelousovzhabotinsky)
+  - [`Math.QuantumPotential`](#mod-math-discretebohmianpotential)
+  - [`Math.ThermalDistribution`](#mod-math-discreteboltzmanndistribution)
+  - [`Math.VacuumDispersion`](#mod-math-discretecasimireffect)
+  - [`Math.RetardedDipoleForce`](#mod-math-discretecasimirpolder)
+  - [`Math.DegeneracyMassLimit`](#mod-math-discretechandrasekharlimit)
+  - [`Math.TopologicalGaugeMass`](#mod-math-discretechernsimonsmass)
+  - [`Math.ChiralAnomaly`](#mod-math-discretechiralanomaly)
+  - [`Math.CosmicGenesis`](#mod-math-discretecosmicgenesis)
+  - [`Math.FluctuationTheorem`](#mod-math-discretecrookstheorem)
+  - [`Math.RelativisticSpinor`](#mod-math-discretediracspinor)
+  - [`Math.FlavorMixing`](#mod-math-discreteflavormixing)
+  - [`Math.HallViscosity`](#mod-math-discretehallviscosity)
+  - [`Math.BlackHolePhaseTransition`](#mod-math-discretehawkingpagetransition)
+  - [`Math.HorizonRadiation`](#mod-math-discretehawkingradiation)
+  - [`Math.ActionPotentialKinetics`](#mod-math-discretehodgkinhuxley)
+  - [`Math.HolographicBound`](#mod-math-discreteholographicbound)
+  - [`Math.HydrogenBonding`](#mod-math-discretehydrogenbonding)
+  - [`Math.PeakBindingEnergy`](#mod-math-discreteiron56peakbinding)
+  - [`Math.PhaseInvarianceMeasure`](#mod-math-discretejarlskoginvariant)
+  - [`Math.WorkFreeEnergyEquality`](#mod-math-discretejarzynskiequality)
+  - [`Math.CavityQuantumElectrodynamics`](#mod-math-discretejaynescummings)
+  - [`Math.RotatingSpacetime`](#mod-math-discretekerrspacetime)
+  - [`Math.MultiTerminalConduction`](#mod-math-discretelandauerbuettiker)
+  - [`Math.InformationErasureCost`](#mod-math-discretelandauerprinciple)
+  - [`Math.LatticeFluidTransport`](#mod-math-discretelatticeboltzmann)
+  - [`Math.MacromolecularChirality`](#mod-math-discretemacromolecularchirality)
+  - [`Math.EnzymeKinetics`](#mod-math-discretemichaelismenten)
+  - [`Math.AllostericCooperativity`](#mod-math-discretemonodwymanchangeux)
+  - [`Math.ReciprocalTransport`](#mod-math-discreteonsagerreciprocity)
+  - [`Math.EvaporationEntropyCurve`](#mod-math-discretepagecurve)
+  - [`Math.PlasmaRecombination`](#mod-math-discreteplasmarecombination)
+  - [`Math.ElectromagneticEnergyFlow`](#mod-math-discretepoyntingtheorem)
+  - [`Math.StringTension`](#mod-math-discreteqcdstringtension)
+  - [`Math.QuantumTeleportation`](#mod-math-discretequantumteleportation)
+  - [`Math.RationalKepler`](#mod-math-discreterationalkepler)
+  - [`Math.RationalRefraction`](#mod-math-discreterationalsnell)
+  - [`Math.RibosomalTranslation`](#mod-math-discreteribosomaltranslation)
+  - [`Math.EntanglementAreaLaw`](#mod-math-discreteryutakayanagi)
+  - [`Math.GravitationalCollapseLimit`](#mod-math-discretetovlimit)
+  - [`Math.TopologicalInsulator`](#mod-math-discretetopologicalinsulator)
+  - [`Math.ToricCode`](#mod-math-discretetoriccode)
+  - [`Math.TripleAlphaNucleosynthesis`](#mod-math-discretetriplealphanucleosynthesis)
+  - [`Math.NucleicAcidBasePairing`](#mod-math-discretewatsoncrick)
+  - [`Math.CosmologicalWaveEquation`](#mod-math-discretewheelerdewitt)
   - [`Math.FineStructure`](#mod-math-finestructure)
   - [`Math.FractionalQuantumHall`](#mod-math-fractionalquantumhall)
   - [`Math.GalacticRotationCurve`](#mod-math-galacticrotationcurve)
@@ -106,12 +106,12 @@ This document provides an **automatically generated, authoritative reference** f
   - [`Math.MultisetMetricTensor55`](#mod-math-multisetmetrictensor55)
   - [`Math.MuonG2Anomaly`](#mod-math-muong2anomaly)
   - [`Math.NeutrinoOscillation`](#mod-math-neutrinooscillation)
-  - [`Math.PauliExclusion`](#mod-math-pauliexclusion)
+  - [`Math.ExclusionPrinciple`](#mod-math-pauliexclusion)
   - [`Math.QuantumTransition`](#mod-math-quantumtransition)
   - [`Math.RGDecimator`](#mod-math-rgdecimator)
   - [`Math.RationalTrig`](#mod-math-rationaltrig)
   - [`Math.RenormalizationInformationFlow`](#mod-math-renormalizationinformationflow)
-  - [`Math.ShannonHuffmanOptimality`](#mod-math-shannonhuffmanoptimality)
+  - [`Math.PrefixCodeOptimality`](#mod-math-shannonhuffmanoptimality)
   - [`Math.SubstrateMetricTensor55`](#mod-math-substratemetrictensor55)
   - [`Math.SuperconductingFluxQuantization`](#mod-math-superconductingfluxquantization)
   - [`Math.TopologicalChernNumber`](#mod-math-topologicalchernnumber)
@@ -695,7 +695,7 @@ record ToricSyndrome where
 
 ## <a id="section-4"></a>4. Emergent Physical Laws & Gauge Theories
 
-### <a id="mod-math-aharonovbohmholonomy"></a>Module `Math.AharonovBohmHolonomy`
+### <a id="mod-math-aharonovbohmholonomy"></a>Module `Math.HolonomyPhase`
 
 #### 🏷️ Algebraic Data Types
 
@@ -757,13 +757,13 @@ record DensityMatrix (poly : Polynumber) where
 
 ---
 
-### <a id="mod-math-discreteactionprinciple"></a>Module `Math.DiscreteActionPrinciple`
+### <a id="mod-math-discreteactionprinciple"></a>Module `Math.ActionPrinciple`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretealfvénmhd"></a>Module `Math.DiscreteAlfvénMHD`
+### <a id="mod-math-discretealfvénmhd"></a>Module `Math.Magnetohydrodynamics`
 
 #### 📦 Records
 
@@ -779,7 +779,7 @@ record PlasmaState where
 
 ---
 
-### <a id="mod-math-discretebcssuperconductivity"></a>Module `Math.DiscreteBCSSuperconductivity`
+### <a id="mod-math-discretebcssuperconductivity"></a>Module `Math.SuperconductingGap`
 
 #### 📦 Records
 
@@ -802,7 +802,7 @@ record DiscreteBCSState where
 
 ---
 
-### <a id="mod-math-discretebelousovzhabotinsky"></a>Module `Math.DiscreteBelousovZhabotinsky`
+### <a id="mod-math-discretebelousovzhabotinsky"></a>Module `Math.OscillatingReactions`
 
 #### 📦 Records
 
@@ -818,13 +818,13 @@ record BZState where
 
 ---
 
-### <a id="mod-math-discretebohmianpotential"></a>Module `Math.DiscreteBohmianPotential`
+### <a id="mod-math-discretebohmianpotential"></a>Module `Math.QuantumPotential`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discreteboltzmanndistribution"></a>Module `Math.DiscreteBoltzmannDistribution`
+### <a id="mod-math-discreteboltzmanndistribution"></a>Module `Math.ThermalDistribution`
 
 #### 📦 Records
 
@@ -839,7 +839,7 @@ record EnergyLevel where
 
 ---
 
-### <a id="mod-math-discretecasimireffect"></a>Module `Math.DiscreteCasimirEffect`
+### <a id="mod-math-discretecasimireffect"></a>Module `Math.VacuumDispersion`
 
 #### 📦 Records
 
@@ -853,13 +853,13 @@ record CavityBoundary where
 
 ---
 
-### <a id="mod-math-discretecasimirpolder"></a>Module `Math.DiscreteCasimirPolder`
+### <a id="mod-math-discretecasimirpolder"></a>Module `Math.RetardedDipoleForce`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretechandrasekharlimit"></a>Module `Math.DiscreteChandrasekharLimit`
+### <a id="mod-math-discretechandrasekharlimit"></a>Module `Math.DegeneracyMassLimit`
 
 #### 📦 Records
 
@@ -876,19 +876,19 @@ record WhiteDwarfCore where
 
 ---
 
-### <a id="mod-math-discretechernsimonsmass"></a>Module `Math.DiscreteChernSimonsMass`
+### <a id="mod-math-discretechernsimonsmass"></a>Module `Math.TopologicalGaugeMass`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretechiralanomaly"></a>Module `Math.DiscreteChiralAnomaly`
+### <a id="mod-math-discretechiralanomaly"></a>Module `Math.ChiralAnomaly`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretecosmicgenesis"></a>Module `Math.DiscreteCosmicGenesis`
+### <a id="mod-math-discretecosmicgenesis"></a>Module `Math.CosmicGenesis`
 
 #### 📦 Records
 
@@ -905,7 +905,7 @@ record GenesisState where
 
 ---
 
-### <a id="mod-math-discretecrookstheorem"></a>Module `Math.DiscreteCrooksTheorem`
+### <a id="mod-math-discretecrookstheorem"></a>Module `Math.FluctuationTheorem`
 
 #### 📦 Records
 
@@ -921,7 +921,7 @@ record TrajectoryWork where
 
 ---
 
-### <a id="mod-math-discretediracspinor"></a>Module `Math.DiscreteDiracSpinor`
+### <a id="mod-math-discretediracspinor"></a>Module `Math.RelativisticSpinor`
 
 #### 📦 Records
 
@@ -945,7 +945,7 @@ record ChiralComponents where
 
 ---
 
-### <a id="mod-math-discreteflavormixing"></a>Module `Math.DiscreteFlavorMixing`
+### <a id="mod-math-discreteflavormixing"></a>Module `Math.FlavorMixing`
 
 #### 🏷️ Algebraic Data Types
 
@@ -965,13 +965,13 @@ data ChargedLepton = LepE | LepMu | LepTau
 
 ---
 
-### <a id="mod-math-discretehallviscosity"></a>Module `Math.DiscreteHallViscosity`
+### <a id="mod-math-discretehallviscosity"></a>Module `Math.HallViscosity`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretehawkingpagetransition"></a>Module `Math.DiscreteHawkingPageTransition`
+### <a id="mod-math-discretehawkingpagetransition"></a>Module `Math.BlackHolePhaseTransition`
 
 #### 📦 Records
 
@@ -994,7 +994,7 @@ data GravitationalPhase = ThermalAdSGas | LargeAdSBlackHole
 
 ---
 
-### <a id="mod-math-discretehawkingradiation"></a>Module `Math.DiscreteHawkingRadiation`
+### <a id="mod-math-discretehawkingradiation"></a>Module `Math.HorizonRadiation`
 
 #### 📦 Records
 
@@ -1010,7 +1010,7 @@ record HorizonState where
 
 ---
 
-### <a id="mod-math-discretehodgkinhuxley"></a>Module `Math.DiscreteHodgkinHuxley`
+### <a id="mod-math-discretehodgkinhuxley"></a>Module `Math.ActionPotentialKinetics`
 
 #### 📦 Records
 
@@ -1027,31 +1027,31 @@ record NeuronMembrane where
 
 ---
 
-### <a id="mod-math-discreteholographicbound"></a>Module `Math.DiscreteHolographicBound`
+### <a id="mod-math-discreteholographicbound"></a>Module `Math.HolographicBound`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretehydrogenbonding"></a>Module `Math.DiscreteHydrogenBonding`
+### <a id="mod-math-discretehydrogenbonding"></a>Module `Math.HydrogenBonding`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discreteiron56peakbinding"></a>Module `Math.DiscreteIron56PeakBinding`
+### <a id="mod-math-discreteiron56peakbinding"></a>Module `Math.PeakBindingEnergy`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretejarlskoginvariant"></a>Module `Math.DiscreteJarlskogInvariant`
+### <a id="mod-math-discretejarlskoginvariant"></a>Module `Math.PhaseInvarianceMeasure`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretejarzynskiequality"></a>Module `Math.DiscreteJarzynskiEquality`
+### <a id="mod-math-discretejarzynskiequality"></a>Module `Math.WorkFreeEnergyEquality`
 
 #### 📦 Records
 
@@ -1066,7 +1066,7 @@ record NonEquilibriumPath where
 
 ---
 
-### <a id="mod-math-discretejaynescummings"></a>Module `Math.DiscreteJaynesCummings`
+### <a id="mod-math-discretejaynescummings"></a>Module `Math.CavityQuantumElectrodynamics`
 
 #### 📦 Records
 
@@ -1091,7 +1091,7 @@ record PolaritonDoublet where
 
 ---
 
-### <a id="mod-math-discretekerrspacetime"></a>Module `Math.DiscreteKerrSpacetime`
+### <a id="mod-math-discretekerrspacetime"></a>Module `Math.RotatingSpacetime`
 
 #### 📦 Records
 
@@ -1108,7 +1108,7 @@ record KerrBlackHole where
 
 ---
 
-### <a id="mod-math-discretelandauerbuettiker"></a>Module `Math.DiscreteLandauerBuettiker`
+### <a id="mod-math-discretelandauerbuettiker"></a>Module `Math.MultiTerminalConduction`
 
 #### 📦 Records
 
@@ -1127,7 +1127,7 @@ record ConductanceMatrix3x3 where
 
 ---
 
-### <a id="mod-math-discretelandauerprinciple"></a>Module `Math.DiscreteLandauerPrinciple`
+### <a id="mod-math-discretelandauerprinciple"></a>Module `Math.InformationErasureCost`
 
 #### 📦 Records
 
@@ -1143,7 +1143,7 @@ record BitMemoryState where
 
 ---
 
-### <a id="mod-math-discretelatticeboltzmann"></a>Module `Math.DiscreteLatticeBoltzmann`
+### <a id="mod-math-discretelatticeboltzmann"></a>Module `Math.LatticeFluidTransport`
 
 #### 📦 Records
 
@@ -1171,7 +1171,7 @@ data D2Q9Dir = D0 | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8
 
 ---
 
-### <a id="mod-math-discretemacromolecularchirality"></a>Module `Math.DiscreteMacromolecularChirality`
+### <a id="mod-math-discretemacromolecularchirality"></a>Module `Math.MacromolecularChirality`
 
 #### 🏷️ Algebraic Data Types
 
@@ -1183,7 +1183,7 @@ data EnantiomerHand = LHand | DHand
 
 ---
 
-### <a id="mod-math-discretemichaelismenten"></a>Module `Math.DiscreteMichaelisMenten`
+### <a id="mod-math-discretemichaelismenten"></a>Module `Math.EnzymeKinetics`
 
 #### 📦 Records
 
@@ -1201,7 +1201,7 @@ record EnzymeSystem where
 
 ---
 
-### <a id="mod-math-discretemonodwymanchangeux"></a>Module `Math.DiscreteMonodWymanChangeux`
+### <a id="mod-math-discretemonodwymanchangeux"></a>Module `Math.AllostericCooperativity`
 
 #### 📦 Records
 
@@ -1217,7 +1217,7 @@ record AllostericSystem where
 
 ---
 
-### <a id="mod-math-discreteonsagerreciprocity"></a>Module `Math.DiscreteOnsagerReciprocity`
+### <a id="mod-math-discreteonsagerreciprocity"></a>Module `Math.ReciprocalTransport`
 
 #### 📦 Records
 
@@ -1234,19 +1234,19 @@ record TransportMatrix2x2 where
 
 ---
 
-### <a id="mod-math-discretepagecurve"></a>Module `Math.DiscretePageCurve`
+### <a id="mod-math-discretepagecurve"></a>Module `Math.EvaporationEntropyCurve`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discreteplasmarecombination"></a>Module `Math.DiscretePlasmaRecombination`
+### <a id="mod-math-discreteplasmarecombination"></a>Module `Math.PlasmaRecombination`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretepoyntingtheorem"></a>Module `Math.DiscretePoyntingTheorem`
+### <a id="mod-math-discretepoyntingtheorem"></a>Module `Math.ElectromagneticEnergyFlow`
 
 #### 📦 Records
 
@@ -1263,13 +1263,13 @@ record DiscreteEMCell where
 
 ---
 
-### <a id="mod-math-discreteqcdstringtension"></a>Module `Math.DiscreteQCDStringTension`
+### <a id="mod-math-discreteqcdstringtension"></a>Module `Math.StringTension`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretequantumteleportation"></a>Module `Math.DiscreteQuantumTeleportation`
+### <a id="mod-math-discretequantumteleportation"></a>Module `Math.QuantumTeleportation`
 
 #### 📦 Records
 
@@ -1290,19 +1290,19 @@ data BellSyndrome = M00 | M01 | M10 | M11
 
 ---
 
-### <a id="mod-math-discreterationalkepler"></a>Module `Math.DiscreteRationalKepler`
+### <a id="mod-math-discreterationalkepler"></a>Module `Math.RationalKepler`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discreterationalsnell"></a>Module `Math.DiscreteRationalSnell`
+### <a id="mod-math-discreterationalsnell"></a>Module `Math.RationalRefraction`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discreteribosomaltranslation"></a>Module `Math.DiscreteRibosomalTranslation`
+### <a id="mod-math-discreteribosomaltranslation"></a>Module `Math.RibosomalTranslation`
 
 #### 🏷️ Algebraic Data Types
 
@@ -1318,7 +1318,7 @@ data AminoAcid = Met | Phe | Leu | Gly | Ala | StopCodon
 
 ---
 
-### <a id="mod-math-discreteryutakayanagi"></a>Module `Math.DiscreteRyuTakayanagi`
+### <a id="mod-math-discreteryutakayanagi"></a>Module `Math.EntanglementAreaLaw`
 
 #### 📦 Records
 
@@ -1341,7 +1341,7 @@ record HolographicEntanglement where
 
 ---
 
-### <a id="mod-math-discretetovlimit"></a>Module `Math.DiscreteTOVLimit`
+### <a id="mod-math-discretetovlimit"></a>Module `Math.GravitationalCollapseLimit`
 
 #### 📦 Records
 
@@ -1357,7 +1357,7 @@ record StellarCore where
 
 ---
 
-### <a id="mod-math-discretetopologicalinsulator"></a>Module `Math.DiscreteTopologicalInsulator`
+### <a id="mod-math-discretetopologicalinsulator"></a>Module `Math.TopologicalInsulator`
 
 #### 📦 Records
 
@@ -1378,7 +1378,7 @@ record DiscreteTIState where
 
 ---
 
-### <a id="mod-math-discretetoriccode"></a>Module `Math.DiscreteToricCode`
+### <a id="mod-math-discretetoriccode"></a>Module `Math.ToricCode`
 
 #### 📦 Records
 
@@ -1403,13 +1403,13 @@ record StabilizerSyndrome where
 
 ---
 
-### <a id="mod-math-discretetriplealphanucleosynthesis"></a>Module `Math.DiscreteTripleAlphaNucleosynthesis`
+### <a id="mod-math-discretetriplealphanucleosynthesis"></a>Module `Math.TripleAlphaNucleosynthesis`
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
-### <a id="mod-math-discretewatsoncrick"></a>Module `Math.DiscreteWatsonCrick`
+### <a id="mod-math-discretewatsoncrick"></a>Module `Math.NucleicAcidBasePairing`
 
 #### 🏷️ Algebraic Data Types
 
@@ -1421,7 +1421,7 @@ data NucleotideBase = Adenine | Thymine | Guanine | Cytosine
 
 ---
 
-### <a id="mod-math-discretewheelerdewitt"></a>Module `Math.DiscreteWheelerDeWitt`
+### <a id="mod-math-discretewheelerdewitt"></a>Module `Math.CosmologicalWaveEquation`
 
 [↑ Back to Top](#table-of-contents)
 
@@ -1594,7 +1594,7 @@ record NeutrinoProbabilityVector where
 
 ---
 
-### <a id="mod-math-pauliexclusion"></a>Module `Math.PauliExclusion`
+### <a id="mod-math-pauliexclusion"></a>Module `Math.ExclusionPrinciple`
 
 #### 🏷️ Algebraic Data Types
 
@@ -1668,7 +1668,7 @@ record MacroPlaquette where
 
 ---
 
-### <a id="mod-math-shannonhuffmanoptimality"></a>Module `Math.ShannonHuffmanOptimality`
+### <a id="mod-math-shannonhuffmanoptimality"></a>Module `Math.PrefixCodeOptimality`
 
 [↑ Back to Top](#table-of-contents)
 

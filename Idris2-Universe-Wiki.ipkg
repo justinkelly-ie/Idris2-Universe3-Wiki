@@ -1,18 +1,19 @@
-package Idris2-Universe3-Wiki
+package Idris2-Universe-Wiki
 version = 0.3.0
-executable = universe3-verify
+executable = universe-verify
 main = Main
 
 depends = base,
-          Idris2-Multiset0,
-          Idris2-Multiset1,
-          Idris2-Boole2,
-          Idris2-Naray2,
-          Idris2-Geometry3,
-          Idris2-Physics3,
-          Idris2-Hadron3,
-          Idris2-Biochem3,
-          Idris2-Universe3
+          Idris2-Multiset-Core,
+          Idris2-Multiset-Transform,
+          Idris2-Multiset-Binary,
+          Idris2-Multiset-Ternary,
+          Idris2-Geometry,
+          Idris2-Physics,
+          Idris2-Hadron,
+          Idris2-Chemistry,
+          Idris2-Biology,
+          Idris2-Universe
 
 sourcedir = "Library/Wiki"
 

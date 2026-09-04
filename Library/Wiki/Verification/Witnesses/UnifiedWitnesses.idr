@@ -13,7 +13,7 @@ auditUnifiedWitnessesProofExport : Bool
 auditUnifiedWitnessesProofExport =
   -- Batch 1 (27 Proofs)
   auditTernaryClosureProofExport &&
-  auditSingFractionPositivityProofExport &&
+  auditUnixelFractionPositivityProofExport &&
   auditRationalEquivalenceProofExport &&
   auditOnSeqClipExtractionProofExport &&
   auditCliffordGeometricProductProofExport &&
@@ -111,7 +111,7 @@ auditUnifiedWitnessesProofExport =
   auditAnyonicBraidingPhaseProofExport &&
   auditFractionalHallConductanceProofExport &&
   auditDiscreteSecondLawProofExport &&
-  auditDiscreteJarzynskiEqualityProofExport &&
+  auditWorkFreeEnergyEqualityProofExport &&
   auditFluctuationDissipationProofExport &&
   auditDeWittSupermetricProofExport &&
   auditZeroWheelerDeWittConstraintProofExport &&
@@ -126,31 +126,31 @@ auditUnifiedWitnessesProofExport =
   -- Batch 5 (27 Proofs)
   auditDyckHuffmanHolographicProofExport &&
   auditCosmicGenesisRelicFreezeOutProofExport &&
-  auditDiscreteHawkingRadiationProofExport &&
-  auditDiscreteHallViscosityProofExport &&
-  auditDiscretePageCurveProofExport &&
-  auditDiscreteOnsagerReciprocityProofExport &&
-  auditDiscreteChernSimonsMassProofExport &&
-  auditDiscreteTOVLimitProofExport &&
-  auditDiscreteCrooksTheoremProofExport &&
-  auditDiscreteCasimirPolderProofExport &&
-  auditDiscreteBohmianPotentialProofExport &&
-  auditDiscreteLandauerBuettikerProofExport &&
-  auditDiscreteBCSSuperconductivityProofExport &&
-  auditDiscreteBelousovZhabotinskyProofExport &&
-  auditDiscreteTopologicalInsulatorProofExport &&
-  auditDiscreteQuantumTeleportationProofExport &&
-  auditDiscreteJaynesCummingsProofExport &&
-  auditDiscreteRyuTakayanagiProofExport &&
-  auditDiscreteToricCodeProofExport &&
-  auditDiscreteMichaelisMentenProofExport &&
-  auditDiscreteHodgkinHuxleyProofExport &&
-  auditDiscreteMonodWymanChangeuxProofExport &&
-  auditDiscreteRibosomalTranslationProofExport &&
-  auditDiscreteKerrSpacetimeProofExport &&
-  auditDiscreteAlfvénMHDProofExport &&
-  auditDiscreteChandrasekharLimitProofExport &&
-  auditDiscreteHawkingPageTransitionProofExport &&
+  auditHorizonRadiationProofExport &&
+  auditHallViscosityProofExport &&
+  auditEvaporationEntropyCurveProofExport &&
+  auditReciprocalTransportProofExport &&
+  auditTopologicalGaugeMassProofExport &&
+  auditGravitationalCollapseLimitProofExport &&
+  auditFluctuationTheoremProofExport &&
+  auditRetardedDipoleForceProofExport &&
+  auditQuantumPotentialProofExport &&
+  auditMultiTerminalConductionProofExport &&
+  auditSuperconductingGapProofExport &&
+  auditOscillatingReactionsProofExport &&
+  auditTopologicalInsulatorProofExport &&
+  auditQuantumTeleportationProofExport &&
+  auditCavityQuantumElectrodynamicsProofExport &&
+  auditEntanglementAreaLawProofExport &&
+  auditToricCodeProofExport &&
+  auditEnzymeKineticsProofExport &&
+  auditActionPotentialKineticsProofExport &&
+  auditAllostericCooperativityProofExport &&
+  auditRibosomalTranslationProofExport &&
+  auditRotatingSpacetimeProofExport &&
+  auditMagnetohydrodynamicsProofExport &&
+  auditDegeneracyMassLimitProofExport &&
+  auditBlackHolePhaseTransitionProofExport &&
   -- Batch 6 (28 Proofs)
   auditPeptideCondensationConservationProofExport &&
   auditChiralEnantiomerInversionProofExport &&
@@ -182,7 +182,7 @@ auditUnifiedWitnessesProofExport =
   auditMultisetAdvancedTensorEngineProofExport &&
   auditParallelPushforwardProofExport &&
   auditHiggsVacuumStabilityProofExport &&
-  auditDiscreteFeynmanLoopProofExport &&
+  auditVacuumPolarizationProofExport &&
   auditSpinNetworkVolumeProofExport &&
   auditCosmicInflationProofExport &&
   auditQuantumStressTensorProofExport &&
