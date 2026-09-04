@@ -26,4 +26,5 @@ modules = Verification.Witnesses.UnifiedWitnesses,
           Geometry.Hyperbolic_Gauge_Flux_and_Mixing,
           Geometry.Parabolic_Dissipation_and_Recombination,
           Geometry.Substrate_Free_Energy_and_Causal_Arrow,
+          InvertedOpenScaleTransformSpec,
           Verification.Verification_Matrix

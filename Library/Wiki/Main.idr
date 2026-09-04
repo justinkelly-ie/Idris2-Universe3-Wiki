@@ -39,6 +39,7 @@ import Geometry.Elliptic_Bound_State_Confinement
 import Geometry.Hyperbolic_Gauge_Flux_and_Mixing
 import Geometry.Parabolic_Dissipation_and_Recombination
 import Geometry.Substrate_Free_Energy_and_Causal_Arrow
+import InvertedOpenScaleTransformSpec
 import Verification.Verification_Matrix
 
 -- IMPORT ALL 31 LITERATE MARKDOWN MODULES (Proves they compile and execute)
@@ -609,6 +610,7 @@ main = do
   putStrLn $ "  [TEST 169] CODATA 2022 Fine Structure Constant α^-1 Empirical Error < 1.0%: " ++ (if test169 then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 170] CERN LHC Electroweak Boson Mass Ratio m_W / m_Z Empirical Error < 1.0%: " ++ (if test170 then "PASSED ✅" else "FAILED ❌")
   putStrLn $ "  [TEST 171] Planck 2018 Primordial Inflation n_s = 0.965 Confidence Interval: " ++ (if test171 then "PASSED ✅" else "FAILED ❌")
+  putStrLn $ "  [TEST 172] Inverted Open Universe Scale Transform Architecture: " ++ (if auditInvertedOpenScaleTransformProof then "PASSED ✅" else "FAILED ❌")
 
 
 
